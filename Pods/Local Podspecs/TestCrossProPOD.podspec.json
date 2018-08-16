@@ -1,0 +1,28 @@
+{
+  "name": "TestCrossProPOD",
+  "version": "0.0.3",
+  "summary": "A Test POD of TestCrossProPOD.",
+  "description": "This is test results pod to test results integration POC!",
+  "homepage": "https://github.com/kumarabnit/TestCrossProPOD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kumar Abnit": "avnitkumar10@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/kumarabnit/TestCrossProPOD.git",
+    "tag": "0.0.3"
+  },
+  "source_files": "TestCrossProPOD/Classes/**/*.{h,m,swift}",
+  "resources": "TestCrossProPOD/**/*.{storyboard,xib}",
+  "dependencies": {
+    "TPMGCommon": [
+
+    ]
+  }
+}

@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
+#import <TPMGCommon/TPMGCommon-umbrella.h>
+
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet JVFloatLabeledTextField *myTextField;
 
 @end
 
@@ -16,7 +20,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view, typically from a nib.
+    [TPMGAlertView showAlertWithMessage:@"Test Messgae" title:@"Test Title" cancelButtonTitle:TPMGAlertViewCancelButtonTitleOK];
 }
 
 

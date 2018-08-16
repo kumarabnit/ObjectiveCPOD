@@ -1,0 +1,37 @@
+PODS:
+  - JVFloatLabeledTextField (1.2.1)
+  - TestCrossProPOD (0.0.3):
+    - TPMGCommon
+  - TPMGCommon (0.2.1)
+
+DEPENDENCIES:
+  - JVFloatLabeledTextField
+  - TestCrossProPOD (from `https://github.com/kumarabnit/TestCrossProPOD.git`)
+  - TPMGCommon (from `https://github.kp.org/TPMG/TPMGCommon.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JVFloatLabeledTextField
+
+EXTERNAL SOURCES:
+  TestCrossProPOD:
+    :git: https://github.com/kumarabnit/TestCrossProPOD.git
+  TPMGCommon:
+    :git: https://github.kp.org/TPMG/TPMGCommon.git
+
+CHECKOUT OPTIONS:
+  TestCrossProPOD:
+    :commit: 704acd4be95db44b44d213a24b797b1b30585510
+    :git: https://github.com/kumarabnit/TestCrossProPOD.git
+  TPMGCommon:
+    :commit: 344072980747b5207691faa3e48fc1a7a5941b11
+    :git: https://github.kp.org/TPMG/TPMGCommon.git
+
+SPEC CHECKSUMS:
+  JVFloatLabeledTextField: cfc44e3c4d493b2ed92ede8035e8e89c2912ba64
+  TestCrossProPOD: 754004684449ea6de38a41a3809cf6f9a8006b9d
+  TPMGCommon: 61d96ebccddc94339e425e4d7ace5e4de0d04c16
+
+PODFILE CHECKSUM: 2281d06f0d922b8f4298a90ba3938fd2d61bb398
+
+COCOAPODS: 1.5.3

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D181B75FD9334EBEFB41DED /* Pods_ObjectiveCPOD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF9ED34651BD820C508A0DD /* Pods_ObjectiveCPOD.framework */; };
 		EB086FFC2125A705003CA3DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB086FFB2125A705003CA3DB /* AppDelegate.m */; };
 		EB086FFF2125A705003CA3DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB086FFE2125A705003CA3DB /* ViewController.m */; };
 		EB0870022125A705003CA3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0870002125A705003CA3DB /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF9ED34651BD820C508A0DD /* Pods_ObjectiveCPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveCPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959AF8897BA526DA0097883 /* Pods-ObjectiveCPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCPOD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD.debug.xcconfig"; sourceTree = "<group>"; };
+		DD06EAB2CCE677208C1F02D5 /* Pods-ObjectiveCPOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveCPOD.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD.release.xcconfig"; sourceTree = "<group>"; };
 		EB086FF72125A705003CA3DB /* ObjectiveCPOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCPOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB086FFA2125A705003CA3DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB086FFB2125A705003CA3DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D181B75FD9334EBEFB41DED /* Pods_ObjectiveCPOD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B58892C6240F789ECB162679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF9ED34651BD820C508A0DD /* Pods_ObjectiveCPOD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA825BA616EF5742F765F9EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9959AF8897BA526DA0097883 /* Pods-ObjectiveCPOD.debug.xcconfig */,
+				DD06EAB2CCE677208C1F02D5 /* Pods-ObjectiveCPOD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB086FEE2125A705003CA3DB = {
 			isa = PBXGroup;
 			children = (
 				EB086FF92125A705003CA3DB /* ObjectiveCPOD */,
 				EB086FF82125A705003CA3DB /* Products */,
+				CA825BA616EF5742F765F9EE /* Pods */,
+				B58892C6240F789ECB162679 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB08700D2125A706003CA3DB /* Build configuration list for PBXNativeTarget "ObjectiveCPOD" */;
 			buildPhases = (
+				CEE3642028A1D7A524921F64 /* [CP] Check Pods Manifest.lock */,
 				EB086FF32125A705003CA3DB /* Sources */,
 				EB086FF42125A705003CA3DB /* Frameworks */,
 				EB086FF52125A705003CA3DB /* Resources */,
+				DC038287BDD498A5F67CBA2C /* [CP] Embed Pods Frameworks */,
+				BBBB6E521F757190AA82EDD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BBBB6E521F757190AA82EDD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD-resources.sh",
+				"${PODS_ROOT}/TestCrossProPOD/TestCrossProPOD/Base.lproj/LaunchScreen.storyboard",
+				"${PODS_ROOT}/TestCrossProPOD/TestCrossProPOD/Base.lproj/Main.storyboard",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LaunchScreen.storyboardc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Main.storyboardc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE3642028A1D7A524921F64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveCPOD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC038287BDD498A5F67CBA2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TPMGCommon/TPMGCommon.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPMGCommon.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EB086FF32125A705003CA3DB /* Sources */ = {
@@ -281,10 +367,12 @@
 		};
 		EB08700E2125A706003CA3DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9959AF8897BA526DA0097883 /* Pods-ObjectiveCPOD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ObjectiveCPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +385,12 @@
 		};
 		EB08700F2125A706003CA3DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD06EAB2CCE677208C1F02D5 /* Pods-ObjectiveCPOD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ObjectiveCPOD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

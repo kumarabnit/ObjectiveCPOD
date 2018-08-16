@@ -1,0 +1,6 @@
+framework module TestCrossProPOD {
+  umbrella header "TestCrossProPOD-umbrella.h"
+
+  export *
+  module * { export * }
+}
