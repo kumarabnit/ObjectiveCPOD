@@ -9,6 +9,8 @@
 import UIKit
 import QuartzCore
 import Alamofire
+import JVFloatLabeledTextField
+import TPMGCommon
 
 class RangeSliderTrackLayer: CALayer {
     weak var rangeSlider: RangeSlider?
@@ -361,7 +363,10 @@ public class RangeSlider: UIControl {
         let multiData = MultipartFormData()
         print("My multiData \(multiData)")
         let session = SessionManager()
-        
+        print(session)
+        let textField = JVFloatLabeledTextField()
+        print(textField)
+        TPMGAlertView.showAlert(withMessage: "Range Message", title: "Range Title", cancelButtonTitle: TPMGAlertViewCancelButtonTitleOK)
     }
     
 }
