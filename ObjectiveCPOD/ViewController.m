@@ -9,8 +9,8 @@
 #import "ViewController.h"
 #import <JVFloatLabeledTextField/JVFloatLabeledTextField.h>
 #import <TPMGCommon/TPMGCommon-umbrella.h>
-
-
+#import "Alamofire-Swift.h"
+#import "ObjectiveCPOD-Swift.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet JVFloatLabeledTextField *myTextField;
 
@@ -23,6 +23,10 @@
     
     // Do any additional setup after loading the view, typically from a nib.
     [TPMGAlertView showAlertWithMessage:@"Test Messgae" title:@"Test Title" cancelButtonTitle:TPMGAlertViewCancelButtonTitleOK];
+    SessionDelegate * session = [[SessionDelegate alloc]init];
+    NSLog(@"Session %@",session);
+    RangeSlider *range = [[RangeSlider alloc]init];
+    [range testMethodForAlmaoFire];
 }
 
 

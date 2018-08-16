@@ -7,231 +7,228 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024CCCAEA305D43D7430B41C90311965 /* TPMGImageDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 66E377092A9AE849BEB76BEC788549F9 /* TPMGImageDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F2279815C0BECD1DE19DA5F634AF038 /* Pods-ObjectiveCPOD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8652ECFF35513735BE8A7C373A6C2BAF /* Pods-ObjectiveCPOD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12F06FB643A535EACA03C7695CF52CA7 /* TestResultsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61EBBFA90BE286CF7C9B0021ABF3F5 /* TestResultsDetailsViewController.swift */; };
-		193B06A6EBB41BDC2172A42A37DC979E /* TPMGFileDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 353FF28A5DE4A028137FC26955856A43 /* TPMGFileDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA98C61F32274C4873BF7A1DD329B2 /* JVFloatLabeledTextField-dummy.m */; };
-		25B6FF9562628F23DD069F2D258F4F85 /* TPMGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CF40689BD28FD4A1AB29C17AFE8140 /* TPMGAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		276BAA5E55D738268718ABCA30E7E18D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA3D8DE13B5453986CFB6B0483EB0F /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2C8C63E5932477A849A33044FF80A798 /* TestCrossProPOD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E62550E60EEB5CFE6202A7FF1D933 /* TestCrossProPOD-dummy.m */; };
-		2C9786C147CC78DC3422407DB3A6A209 /* TPMGServiceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A48B3A40C473B3444B30899E0006B6A /* TPMGServiceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2360F21B1FAAA3A178C413E17B6AFE27 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F980936512A3B345B0856F38B9583E6 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2979396C77CC78111ED1964C275C874D /* NSDate+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		323E828C3965840271921AFA42ADE1E2 /* TPMGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9919213108B5BF47E19FD539AFD868C7 /* TPMGReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3425595E2931805010A5933B7ADD5A59 /* TestCrossProPOD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E28951F1546E8BD6263DB70A902E6F0 /* TestCrossProPOD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B05A792114C6749351C928299E4DB0B /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3C06679E67B62CF6A333B5D58F912164 /* TPMGMemberSignOnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 463517A488332276A0EF06C5EEF649C6 /* TPMGMemberSignOnManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3CB3568260C64A958497FB65DD28D815 /* TPMGMemberSignOffManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CA9A153B5A5A5D41EFF552B1DC1590 /* TPMGMemberSignOffManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43ECACFB0208A76ECCF605E6C97F579D /* TPMGServiceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = E83405AA8E3646C000BF8DBDEC4724F2 /* TPMGServiceReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44909F77CB4662FD594F557684120F81 /* TPMGServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5277691FB58B3ADAFB6CE84D20E6D62C /* TPMGServiceReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		45C757A14FC3BCE399AB0177CF8B83E7 /* TPMGAuthenticationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BC676A10A332E970F9DD49C4A4B52 /* TPMGAuthenticationObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4A483AF6B341069A51D2465DC7B71502 /* TPMGCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 304B840D07B6CB8FA51A73AFDD9A11D7 /* TPMGCookieManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4CBD186BE635935CC980B99222EAC637 /* TPMGAuthenticationChallengeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CC75002EB7C2FCC54900734C1DEB4193 /* TPMGAuthenticationChallengeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DEAFB2C96A9600DC5EAC3187D9000FC /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057F69C55344DDAF00FDA90F3E67AAC /* RangeSlider.swift */; };
-		531769E75ED95F534DCB75ADCB740CA2 /* TPMGFileDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F94748804910F15A7D2BF43EDD2C2959 /* TPMGFileDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		05F8836268EDA94A9F44F63C9680D0E4 /* NSData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6156CFFCCC37AAA3BE08BDFACDA6A8 /* NSData+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0756EC380948A3891325FC655A26883A /* TPMGServiceSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D42A78992F264FC13A9856C6173593D /* TPMGServiceSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EFE2AA09C9DE148BF81BFFDBD543A95 /* TPMGServiceReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 03492954B164683294B63EB829483BE0 /* TPMGServiceReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB9EFF87A682D6AF42745210D1B5F1B /* Timeline.swift */; };
+		138AAEAA224A251963149B5FA3FCFD5D /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5B55C8D00B4A369A3A71B1586E505D /* NSDate+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		14317E12E0F36AAF1B9D01DB2F701751 /* TPMGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D11F1F4EA3C3D4782B4DEFA563ED9078 /* TPMGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15BDBAE8B46ED23FDA7990862A137E3E /* TPMGCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ACC10B4C44F1EC6A3ED7A666A39EF /* TPMGCommon-dummy.m */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC07E87D8582FB0405045A213AFB8BC4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224A85932487353D4FEB41D97AAA1273 /* JVFloatLabeledTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 439D08D6807CA6CBC1EC62A159B0F131 /* JVFloatLabeledTextField-dummy.m */; };
+		257892E9E66799BE58B67588D2030A6F /* TPMGServiceReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FA592B71C3EA7B754B0AFFFFE7F524A3 /* TPMGServiceReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		26632CF9818B96A5212301F93FDB9698 /* TPMGAuthenticationChallengeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A897BE6FDF9DD9456F9F2B1572122E6 /* TPMGAuthenticationChallengeHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2686463634C0AAC5B132EC25D732376D /* TPMGServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0CABCFF0239A0BE2BB1E7164A0669 /* TPMGServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2AA28ADDB5120277CC971D24EB088E57 /* TPMGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F0D460FA10FFF33C8474DE7200400E /* TPMGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C90431B2A74D0C03A557600B4AE5B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		2CF987D2DC59DA41EB62817A07B6712B /* JVFloatLabeledTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 067960A4AFA06D398BE1B11B67123F89 /* JVFloatLabeledTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E1C1A5AF814B4BD9864A9AD28EAA3FE /* TPMGImageDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 888C2476F6FC7B92F54BD3C50E134174 /* TPMGImageDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		30CD8CA3F62EF349BA731DC3C390E08E /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44ED07475F48B4F76D74C9719E8410CF /* NSData+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34577C94976E93C1C4DC56E0755EC679 /* TPMGKeychainUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E1A4F31A29EA736AF0D6C751F827F /* TPMGKeychainUtility.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FB3F47C62D10E7E79DC5BD1B7C9F2D /* TaskDelegate.swift */; };
+		36A8635ACD8A411AA01830728549B534 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C649BC40EA4A4FBDC790C166AF89D967 /* JVFloatLabeledTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3F4A47BD498E6023F0B00547825942FA /* TPMGLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7C185D05FC575EF0A9213906897B1 /* TPMGLoadingOverlay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4A53C808127E8F738051FB5CFE71BA8B /* TPMGMemberSignOnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 639C539C84463239236DE58D13E28697 /* TPMGMemberSignOnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D9581ED98FF1E9A5B519C188E4C4269 /* TPMGServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A88BA061B37CD54290BAB0EDB85167F5 /* TPMGServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F94E8C724E5A52C4FEE22FA53E028C1 /* TPMGCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5883A9A172B652FA25B2B37ED40F8BFB /* TPMGCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F1740D1D30580BD9D9416AB4C3FD1B /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E77676E5D52B828554E365EB2152EF /* NSString+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		52F578F5338E9E72432139E055A66813 /* TPMGAuthenticationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB41B81BDBDF06E629983798CE5C7BC /* TPMGAuthenticationObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5374F4C971198C18712D9600182DC8C6 /* TPMGSSOInterruptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD1B13499E228E7031F1F842158FA7D /* TPMGSSOInterruptManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601636DF880A88C4351C07BE4213845C /* Request.swift */; };
 		5425C4B84CA641425E90B13AC38FA965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		55D783AF5B60F100569F68E66CBA2B4A /* TPMGAuthenticationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1F701FC868D50B29FDAA68E180B17E /* TPMGAuthenticationObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		592FB700C162724D693CD46509967138 /* TPMGAuthenticationChallengeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5488E9B0E62DDECB370A2536E1EB6C /* TPMGAuthenticationChallengeHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60B48ECC1121C20E54CE4D748ACBEFCF /* TPMGLoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 067ACA3D4DB0F2C20F1E4DB368F6387A /* TPMGLoadingOverlay.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		626476F057D090E5DFE299A839E0DE0A /* TestCrossProPOD-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = FA90014EDCAB27BC91E00309A8B98739 /* TestCrossProPOD-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65EF2DA9F8D32D3DE7F54D1F6B2812EA /* TPMGBaseServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9171624BA71A328A69A4FCA6998BCB88 /* TPMGBaseServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3135C1F1DA1E64827C987F7AE602F0A /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69683D6C46ABD8237B1DDA3CC7887EE6 /* TPMGKeychainUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 805F0F9445A69569AC1DB8C372A7615D /* TPMGKeychainUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6B65DEBB73C9CBD86E026ACEAB43AD50 /* TPMGServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = CB327A12DE1D9CB985C4ECAB05514913 /* TPMGServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C4B673F6D6636F07ECE494A55717184 /* NSData+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C988E2BF26FA0848055853BC01A7314 /* NSData+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5A3DB2A2A496ADF8850D652225DAA5 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71A338F193CC420A082C8D36E0B207B1 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3346BF59454E92E82CA71D6A44495A /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72FDE27BBAE4551C7AEEA8FDEEE62D2D /* TPMGMemberSignOnManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C1F049E343B7833C2BA68E21ABFC7 /* TPMGMemberSignOnManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74188D98C6C671A03CF5EEDFBF9320CD /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D303DBDA58EE2559E65F4AA237A224B9 /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74690DD01DC85641F3784E268C0BFBCD /* TPMGKeychainUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 881BCC7D3CF014C83796651CA16501EA /* TPMGKeychainUtility.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		76DD619431E62422D136974B1FB2317F /* TPMGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CD936DEB812849E082E7FF18559BE87E /* TPMGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		782D3200E3C2A1180487014BCF6497A0 /* TPMGCommon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9C4D51CE99866F3BE0B94666AB7DB9 /* TPMGCommon-dummy.m */; };
-		787347BF1BB8A841A4A53CD64F3C91EA /* TPMGCommon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68558E5D0D3E1817E0AD6F58FD70F94C /* TPMGCommon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B49385B19CF846AB63F9B4C226DC1A2 /* TPMGServiceSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B26A2CDBB7AD6BD9CFDDAD2F2F7B84 /* TPMGServiceSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7F8956EE9AA323AC9B48F2C70109D511 /* TPMGServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CEC127783989AC2B07324AD7A2A53F /* TPMGServiceConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		837F86A711B11946EC1D721C71FDBF2C /* TPMGServiceSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2F897F8924BEA1C30589593018EC88 /* TPMGServiceSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E732E93BD11B4E83185D3C59D397C3A /* TPMGServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1693BE09A9830ACF51747FD22B1E1C /* TPMGServiceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		95DF52304518F37A5B54D6965A4BF2D3 /* TPMGServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AED252014075F3542F362677A8ADAB9B /* TPMGServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = FA12C63E75308FCD39E471CF5DA1D3D5 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9AA4D5F255F37E2A67C619EF09109E45 /* TPMGMemberSignOffManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C82BEEDF7F96BB9F09A2879FBA3E4C4 /* TPMGMemberSignOffManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A04BE23CFB36B29A59F27F69D9734BC7 /* TPMGCookieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 75F489855B84EFB665A0455E9C4B529A /* TPMGCookieManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A47637CA57BA4B2EB97F70AB5A1C50F3 /* TPMGSSOInterruptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D85B6816C1FAB19502A7CB7BBF78C7 /* TPMGSSOInterruptManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A9005CD4BCB056DCCE2ECFA63643296A /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 141D845BBBFF3018AF1E1BB0C2587DD3 /* NSString+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AB17558432710F45EEACBDC5559FDB5C /* TPMGBaseServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E39032215D00449ED21045F8BC425A89 /* TPMGBaseServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABE91CFFFE1A45DBEC6B20BB1E73111C /* Pods-ObjectiveCPOD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6B7EF18620748D2652819DF2125E4 /* Pods-ObjectiveCPOD-dummy.m */; };
-		B0340B5DB6D2C89743DC0214759C4EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		B101310402DA8138079B4D3260281F84 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C2EF9845D2E8BF24F30BF4765BD883D /* NSData+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B20C3B5570F5A8E92712A3C7AB32EFBA /* TestResultListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D459151FDA2C7858705A881549F122A1 /* TestResultListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5AC2BB46198A2E2EA8CAE0CD816FEAB /* TPMGImageDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4A90C01EB267FE04FB2B7FE505F87F /* TPMGImageDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B84CD47000B648B42C29EFB640CFB464 /* TPMGServiceError.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B9C53C81438B955A715029246F0972 /* TPMGServiceError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8692B31A79EC065D35A94358E83896 /* TPMGSSOInterruptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B9CDF1265521A9FF2C345C94C0FF763 /* TPMGSSOInterruptManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE71B649A8EE6582BFBDE43BED83149A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		BF1CD2D74AFD9D0BCEAC0B986BF6C344 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = ABCFDD4383ED80CCE3C147CEEC685FDF /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D666719DE5EDB7FCBD4005EB60DAA7 /* TPMGServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F06BC2D2867A444DB15AF720154ACE78 /* TPMGServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55669B8828FEEDE37E4D848124616C53 /* TPMGMemberKeepAliveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F1284F1973F0D1D9DF949B93783B8B /* TPMGMemberKeepAliveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5639920A7593627F74BE765A2FA2F0F3 /* TPMGServiceError.h in Headers */ = {isa = PBXBuildFile; fileRef = 26D8FD46E4891F32700926148E645FD7 /* TPMGServiceError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		574E3A5B654F86454FECDDCF230C015C /* TPMGFileDownloadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E2D585E59D460E18248E03EDB9D832 /* TPMGFileDownloadRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B9762BBBA728CFE8BFC4865022DC61 /* DispatchQueue+Alamofire.swift */; };
+		629D499B4205A6A726CF61800276FC1D /* TPMGServiceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE68984FC3E2025E3F943370AD6EEB6 /* TPMGServiceConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62C581C6B045D99927090C796216CA0 /* ServerTrustPolicy.swift */; };
+		63D31F3733A20ADA9E3FC10C52C2C99A /* TPMGBaseServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAE9F3B0AEA91DAAF2B72FC44FD16A3 /* TPMGBaseServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B544E41A8477AA16E44E9C0D5F232C /* JVFloatLabeledTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 79122DC28D3D7E9B7CFA6CE35342B100 /* JVFloatLabeledTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7B8C5BCEF514CCE43E44891B3126C3 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = F8555F36FD99DD798856C173F1B05987 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		748DD232A3D13D54F67297A2172F8C4B /* TPMGServiceSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D59F695E07F3535437E37EF4B66E4310 /* TPMGServiceSession.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		78A4BD992672BA763A80A6E22A2B6D40 /* TPMGServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A7DA3BF7B1632B6A34AD44888F68FA /* TPMGServiceManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1AB8D8E8734ED1CE3AE060BF4FA3E7 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67991D6F962B03A80F627B8AAEC7752D /* Result.swift */; };
+		7FF18CAD02B9B0377D1F1462EFAF890D /* TPMGMemberSignOffManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB21E99417C97C44C99D1B379EBAB3FE /* TPMGMemberSignOffManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		8C0B55BA59BE7C088B086ACE8D04FF9A /* TPMGSSOInterruptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B489659D5A7B1B9B1AC0D61AAE55F93 /* TPMGSSOInterruptManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		93C6C3D5C2C3068C98B5FAC86E5D409B /* TPMGAuthenticationChallengeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D20C4EA937509DDC86D20955E30EA90 /* TPMGAuthenticationChallengeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0FB2C71A306631C00AF04BE4DA3A76 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E77966A5ED014E4F20D57FF0132A657 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7485688EAECD96E7BAA4FAE0C0DB06 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28F614D7B9986F885B8C61C777A5828 /* NetworkReachabilityManager.swift */; };
+		A82221FE882447F52F72445E1C649EBC /* TPMGServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B04A00E9FB033E77FC7305608C21DC0 /* TPMGServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BB81F7D86C679C889397D10DB957FF /* Alamofire-dummy.m */; };
+		AAA1AC512EDB565E7FECDF3904ABA334 /* TPMGAuthenticationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 123308EE797E01AF662152CB3739CE1C /* TPMGAuthenticationObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFAC3C1BEA22B3BD5FE5A4082170312 /* NSDate+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1B72B68E3D4A179F1909D4069072AE /* NSDate+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7F1AF8A5FAE80C62F4F717917BD60B /* TPMGFileDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6B8B746A013DB660362966D48DC7DD /* TPMGFileDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07421656C3368885A35D3A43C66FC5D9 /* SessionManager.swift */; };
+		B0825E28045D047A900CEA5424BC81B3 /* TPMGImageDownloadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A6BFE8D4F2C9A874214956D27782BEC2 /* TPMGImageDownloadRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1B21F5A52B2B08BB52AE73521BE4E78 /* NSString+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EACD6A27E389846DAA2845F1B47011 /* NSString+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B375404006837057394274FD2431038D /* TPMGLoadingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EDECCCF8A2B2575C4A2DC0FED3ED017 /* TPMGLoadingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49B3A5A75A0E50EE08DC04D901639F8 /* TPMGCookieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 159A97F6C036D6D9087DD68A2BEE928B /* TPMGCookieManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B5222EA18BBFBF1BBCAC60C4DFCF8319 /* TPMGServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 739D38C496E3B50A4FCC3F988F57F2B4 /* TPMGServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D2FADF826E7D6D2F70C897FD0A5B0 /* MultipartFormData.swift */; };
+		B813112D48E6A694EA3BB7962515C2F3 /* TPMGBaseServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 179A1B275AA37CF09D0EA76F2A4D6C16 /* TPMGBaseServiceRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB7B5F29019EC21928B8FCAE2217089C /* Pods-ObjectiveCPOD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8652ECFF35513735BE8A7C373A6C2BAF /* Pods-ObjectiveCPOD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD36E97BA7B1905455F1CD7ADC1DAA7 /* Validation.swift */; };
+		BDA083249C757B8C170AA693CE1E25B8 /* TPMGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A191C2824EC7BD944BD561D4926E4B83 /* TPMGReachability.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567C99917B738246791DA1614E96A04 /* ParameterEncoding.swift */; };
+		C20D37009662BE4E80326A6117B2B7A0 /* TPMGServiceConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 532C8A3A278B4F46C52BFFB56E6E90D5 /* TPMGServiceConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22FEFE4F3879F7B21BE3FC61E93AC6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C4B3C12069513FD92DB352172DAA2724 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E804A58173D7E4B7E6D044B1D0A58456 /* UIImage+ImageEffects.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C61480FC417FF7A632340001AC5C9BEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		CBF8AA64A62254D88BC6ED30272018DF /* TPMGServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 5906415C42CA253DE1D750F391940989 /* TPMGServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD08C2DEF44160DD3D19C7F1A6B1DA3E /* TPMGMemberKeepAliveManager.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE179DCCBE18148EC936A4307995981 /* TPMGMemberKeepAliveManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D46443314FBF9BBC1F4798B5CBB83DEF /* TestResultListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D8276F6E528C8C19F7A9D0C18BBF6C /* TestResultListViewController.m */; };
-		D53D01A6D91C2673D80AEEDA55D5E190 /* TPMGServiceError.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BFDC27911CB4B6DC8492B1B9C7AE7A /* TPMGServiceError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E11FF04CB13FEE6FD6ACD57F8EE8C32C /* TPMGLoadingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF3E35FAA199DBDFCC14181D1924C0A /* TPMGLoadingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E39CA65106D4801A63215A847F9FA04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C24B26CD34084A6C8BA3B5B84602657 /* Main.storyboard */; };
-		E7E3B09FE5A137E7A0108BE58CD3161E /* TPMGServices.h in Headers */ = {isa = PBXBuildFile; fileRef = F1EB95851DC2B6F13F8A3AAB13EC0DD3 /* TPMGServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F00E1CDA2C818F82E318066B089D81E4 /* TPMGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF72B237BA9C187DF6626AE3872DC22 /* TPMGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0A79F41910AEE1A7F0727B1204D17D8 /* TPMGMemberKeepAliveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DAE316978D8E00E88F8C4222210E5 /* TPMGMemberKeepAliveManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F3A06F49DE5B05CAFB70F7840DC8F5AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EE06A9B70AC6057E26B1245BEBF621 /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F6A0E2124C8FF7D2069C89CCAEF1AA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC2BDD0CA8157AB4B61B61693BD66B0 /* LaunchScreen.storyboard */; };
-		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 36CC7241A4FD3A99B4EF7345447E6248 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D46B255987725433587365505CA424 /* Response.swift */; };
+		D3E70012D288D43F678044BED48B598E /* TPMGCookieManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80404F5A83B6AEF4D42A4A30C990C32B /* TPMGCookieManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D759E5A3A1CDD40653FCBB6359D9455B /* Pods-ObjectiveCPOD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF6B7EF18620748D2652819DF2125E4 /* Pods-ObjectiveCPOD-dummy.m */; };
+		E323E1A3E69D5A4CA0491AB1399B3665 /* TPMGMemberSignOffManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED7279258F97C9F6EEB9D4C73D51191 /* TPMGMemberSignOffManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E81BF547EB60793620BB0C92A9388BFD /* TPMGServiceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D51B5A69F29E9205C85326AEDC2AE27 /* TPMGServiceConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA2E14473A1161B8CD81DD2C5F508CC2 /* UIImage+ImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 68CF9EA20E8D6BB17B9622D33CA106EA /* UIImage+ImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE1DBFA8697C53A556DC04AA60BBE3B /* Notifications.swift */; };
+		F1A99758CD5CA6C81966FF3CB4C2F88B /* TPMGKeychainUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B91E1CE1DF0FFC30073BF70E80AC1EC /* TPMGKeychainUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4E385668E9D968A8550B0B089948A4B /* TPMGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE59FD38C5B3A62E941512306AE505C /* TPMGAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4EBD72886837777AA1E6DF34E9610C9 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E199B6B123684B968E9BE68C5FDA09C /* JVFloatLabeledTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F0CAB2A46F1A285F7B490761E3A877 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A940A9378A56B4D4096979D54DC4E5 /* Alamofire.swift */; };
+		F8E5994B99AE31764186F4C8A0637706 /* TPMGMemberKeepAliveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4293EAA802ACAEAF7A943F0498553970 /* TPMGMemberKeepAliveManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F9115057BD0EF647E0EAF0E014F84635 /* JVFloatLabeledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 015B564A31FFEF1DAABEF46CE93C34C6 /* JVFloatLabeledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9361A617E1AF96E7B8D7DA0CF2D572 /* TPMGMemberSignOnManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D7937EC8E41E082F33D3503A73D038 /* TPMGMemberSignOnManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEFEAE7D5362AA0A2E5BDB95C624BCC1 /* TPMGServiceError.m in Sources */ = {isa = PBXBuildFile; fileRef = 01199F1F2AF827EE30E790C9D7B11BE2 /* TPMGServiceError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23758574FECA6BFE52346165B4BEB7F3 /* PBXContainerItemProxy */ = {
+		08DD383630ADE68EEEB5ABA5BF8B4014 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9C3FB3D7EF6947597B3BAB59D79D62F;
-			remoteInfo = TPMGCommon;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
 		};
-		3542D91AD67E6D7F4E8CF4A9935B16BD /* PBXContainerItemProxy */ = {
+		6074427CBF58BD8E7B869CA56C4881AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9C3FB3D7EF6947597B3BAB59D79D62F;
+			remoteGlobalIDString = 94178C7EF79FB5EE9505E6EED587EA94;
 			remoteInfo = TPMGCommon;
 		};
-		B1E9264E33AFF7696ED190C0F7434B74 /* PBXContainerItemProxy */ = {
+		7DC01D406F15D7A6D5917BD97CB98044 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A4448146C785C426971111F117D773C;
 			remoteInfo = JVFloatLabeledTextField;
 		};
-		D72C545622B35DA3CB3EFC957FA2BB53 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B957FE1F5D6A4763EF7354041F24160;
-			remoteInfo = TestCrossProPOD;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02D85B6816C1FAB19502A7CB7BBF78C7 /* TPMGSSOInterruptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGSSOInterruptManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.m; sourceTree = "<group>"; };
-		067ACA3D4DB0F2C20F1E4DB368F6387A /* TPMGLoadingOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGLoadingOverlay.m; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.m; sourceTree = "<group>"; };
-		07BFDC27911CB4B6DC8492B1B9C7AE7A /* TPMGServiceError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceError.m; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.m; sourceTree = "<group>"; };
-		0D1693BE09A9830ACF51747FD22B1E1C /* TPMGServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceManager.m; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.m; sourceTree = "<group>"; };
+		01199F1F2AF827EE30E790C9D7B11BE2 /* TPMGServiceError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceError.m; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.m; sourceTree = "<group>"; };
+		015B564A31FFEF1DAABEF46CE93C34C6 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		02E77676E5D52B828554E365EB2152EF /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.m"; sourceTree = "<group>"; };
+		03492954B164683294B63EB829483BE0 /* TPMGServiceReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.h; sourceTree = "<group>"; };
+		03B9762BBBA728CFE8BFC4865022DC61 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		05682CE2AA699E7CD6C9B215AA75182A /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
+		067960A4AFA06D398BE1B11B67123F89 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
+		07421656C3368885A35D3A43C66FC5D9 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		09C58D1ABF6E6E5438549D15CF33329A /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		0FA7C185D05FC575EF0A9213906897B1 /* TPMGLoadingOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGLoadingOverlay.m; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.m; sourceTree = "<group>"; };
+		123308EE797E01AF662152CB3739CE1C /* TPMGAuthenticationObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationObject.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.h; sourceTree = "<group>"; };
 		133BEE22F9A6B3A1DE29FC16B5379D33 /* Pods-ObjectiveCPOD-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ObjectiveCPOD-acknowledgements.plist"; sourceTree = "<group>"; };
-		141D845BBBFF3018AF1E1BB0C2587DD3 /* NSString+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.m"; sourceTree = "<group>"; };
-		17B26A2CDBB7AD6BD9CFDDAD2F2F7B84 /* TPMGServiceSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceSession.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.m; sourceTree = "<group>"; };
-		184C1F049E343B7833C2BA68E21ABFC7 /* TPMGMemberSignOnManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOnManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.h; sourceTree = "<group>"; };
-		1BF3E35FAA199DBDFCC14181D1924C0A /* TPMGLoadingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGLoadingOverlay.h; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.h; sourceTree = "<group>"; };
-		1C2EF9845D2E8BF24F30BF4765BD883D /* NSData+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.m"; sourceTree = "<group>"; };
-		1C82BEEDF7F96BB9F09A2879FBA3E4C4 /* TPMGMemberSignOffManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOffManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.m; sourceTree = "<group>"; };
-		1EF72B237BA9C187DF6626AE3872DC22 /* TPMGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAlertView.h; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.h; sourceTree = "<group>"; };
-		2360F21B1FAAA3A178C413E17B6AFE27 /* JVFloatLabeledTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-umbrella.h"; sourceTree = "<group>"; };
-		25F12E5C11C18175BE574FDD11E78A4C /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
-		278CE1847ECECB3CF4193434048D53D7 /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
-		2979396C77CC78111ED1964C275C874D /* NSDate+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.m"; sourceTree = "<group>"; };
-		304B840D07B6CB8FA51A73AFDD9A11D7 /* TPMGCookieManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGCookieManager.m; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.m; sourceTree = "<group>"; };
-		353FF28A5DE4A028137FC26955856A43 /* TPMGFileDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGFileDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.h; sourceTree = "<group>"; };
-		36CC7241A4FD3A99B4EF7345447E6248 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextField.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.h; sourceTree = "<group>"; };
-		38B9C53C81438B955A715029246F0972 /* TPMGServiceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceError.h; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.h; sourceTree = "<group>"; };
-		38CF40689BD28FD4A1AB29C17AFE8140 /* TPMGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAlertView.m; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.m; sourceTree = "<group>"; };
-		3B05A792114C6749351C928299E4DB0B /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
-		3B4DAE316978D8E00E88F8C4222210E5 /* TPMGMemberKeepAliveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberKeepAliveManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.m; sourceTree = "<group>"; };
-		3E28951F1546E8BD6263DB70A902E6F0 /* TestCrossProPOD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestCrossProPOD-umbrella.h"; sourceTree = "<group>"; };
-		42099396BDFAE580E8FA0FF329EBF443 /* TestCrossProPOD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestCrossProPOD.modulemap; sourceTree = "<group>"; };
-		42CA9A153B5A5A5D41EFF552B1DC1590 /* TPMGMemberSignOffManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOffManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.h; sourceTree = "<group>"; };
-		463517A488332276A0EF06C5EEF649C6 /* TPMGMemberSignOnManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOnManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.m; sourceTree = "<group>"; };
-		4B18122EE21596A342F9D2EFF24BA5B1 /* TestCrossProPOD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestCrossProPOD-prefix.pch"; sourceTree = "<group>"; };
-		4B9C4D51CE99866F3BE0B94666AB7DB9 /* TPMGCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPMGCommon-dummy.m"; sourceTree = "<group>"; };
-		4C8BC676A10A332E970F9DD49C4A4B52 /* TPMGAuthenticationObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationObject.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.m; sourceTree = "<group>"; };
+		159A97F6C036D6D9087DD68A2BEE928B /* TPMGCookieManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGCookieManager.m; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.m; sourceTree = "<group>"; };
+		179A1B275AA37CF09D0EA76F2A4D6C16 /* TPMGBaseServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGBaseServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.m; sourceTree = "<group>"; };
+		225BA277D64744BBBC8D3E8FFACE5238 /* Pods_ObjectiveCPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjectiveCPOD.framework; path = "Pods-ObjectiveCPOD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D8FD46E4891F32700926148E645FD7 /* TPMGServiceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceError.h; path = TPMGCommon/TPMGCommon/ErrorHandler/TPMGServiceError.h; sourceTree = "<group>"; };
+		2EDECCCF8A2B2575C4A2DC0FED3ED017 /* TPMGLoadingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGLoadingOverlay.h; path = TPMGCommon/TPMGCommon/Utilities/LoadingOverlay/TPMGLoadingOverlay.h; sourceTree = "<group>"; };
+		2FD36E97BA7B1905455F1CD7ADC1DAA7 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		30D7937EC8E41E082F33D3503A73D038 /* TPMGMemberSignOnManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOnManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.m; sourceTree = "<group>"; };
+		35F0CAB2A46F1A285F7B490761E3A877 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		39BB81F7D86C679C889397D10DB957FF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		3B489659D5A7B1B9B1AC0D61AAE55F93 /* TPMGSSOInterruptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGSSOInterruptManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.m; sourceTree = "<group>"; };
+		3D1D2FADF826E7D6D2F70C897FD0A5B0 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		3D20C4EA937509DDC86D20955E30EA90 /* TPMGAuthenticationChallengeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationChallengeHandler.h; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.h; sourceTree = "<group>"; };
+		3DAE9F3B0AEA91DAAF2B72FC44FD16A3 /* TPMGBaseServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGBaseServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.h; sourceTree = "<group>"; };
+		3DF17AC9C021E29B14240AC614C5C088 /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7BDA114435C128B671943073909C88 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		3ED7279258F97C9F6EEB9D4C73D51191 /* TPMGMemberSignOffManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOffManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.h; sourceTree = "<group>"; };
+		4293EAA802ACAEAF7A943F0498553970 /* TPMGMemberKeepAliveManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberKeepAliveManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.m; sourceTree = "<group>"; };
+		439D08D6807CA6CBC1EC62A159B0F131 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
+		44ED07475F48B4F76D74C9719E8410CF /* NSData+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.m"; sourceTree = "<group>"; };
+		497EAA79295E51EF1393A37A8DC67E7B /* TPMGCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPMGCommon.modulemap; sourceTree = "<group>"; };
+		49F1284F1973F0D1D9DF949B93783B8B /* TPMGMemberKeepAliveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberKeepAliveManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.h; sourceTree = "<group>"; };
+		49FEF08742B6D03EBA73810E49A83755 /* JVFloatLabeledTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFloatLabeledTextField.xcconfig; sourceTree = "<group>"; };
+		4B04A00E9FB033E77FC7305608C21DC0 /* TPMGServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServices.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServices.h; sourceTree = "<group>"; };
 		4DF6B7EF18620748D2652819DF2125E4 /* Pods-ObjectiveCPOD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ObjectiveCPOD-dummy.m"; sourceTree = "<group>"; };
-		5057F69C55344DDAF00FDA90F3E67AAC /* RangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RangeSlider.swift; path = TestCrossProPOD/Classes/RangeSlider.swift; sourceTree = "<group>"; };
-		51CEC127783989AC2B07324AD7A2A53F /* TPMGServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceConfiguration.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.m; sourceTree = "<group>"; };
-		5277691FB58B3ADAFB6CE84D20E6D62C /* TPMGServiceReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.m; sourceTree = "<group>"; };
-		53C5069CA04E10A35DD001FB624538B6 /* TestCrossProPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestCrossProPOD.framework; path = TestCrossProPOD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53D8276F6E528C8C19F7A9D0C18BBF6C /* TestResultListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestResultListViewController.m; path = TestCrossProPOD/Classes/TestResultListViewController.m; sourceTree = "<group>"; };
-		56955150636302A1A5AFD88C440A7A3F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5906415C42CA253DE1D750F391940989 /* TPMGServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConfiguration.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.h; sourceTree = "<group>"; };
-		5B9CDF1265521A9FF2C345C94C0FF763 /* TPMGSSOInterruptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGSSOInterruptManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.h; sourceTree = "<group>"; };
-		5F0843F24FAC849C07341CF1E5DECC6F /* JVFloatLabeledTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFloatLabeledTextField.framework; path = JVFloatLabeledTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66E377092A9AE849BEB76BEC788549F9 /* TPMGImageDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGImageDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.h; sourceTree = "<group>"; };
-		68558E5D0D3E1817E0AD6F58FD70F94C /* TPMGCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-umbrella.h"; sourceTree = "<group>"; };
-		6D5A3DB2A2A496ADF8850D652225DAA5 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		4FB41B81BDBDF06E629983798CE5C7BC /* TPMGAuthenticationObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationObject.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.m; sourceTree = "<group>"; };
+		510E1A4F31A29EA736AF0D6C751F827F /* TPMGKeychainUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGKeychainUtility.m; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.m; sourceTree = "<group>"; };
+		532C8A3A278B4F46C52BFFB56E6E90D5 /* TPMGServiceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConstants.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServiceConstants.h; sourceTree = "<group>"; };
+		5883A9A172B652FA25B2B37ED40F8BFB /* TPMGCommon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-umbrella.h"; sourceTree = "<group>"; };
+		5AE1DBFA8697C53A556DC04AA60BBE3B /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		5D42A78992F264FC13A9856C6173593D /* TPMGServiceSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceSession.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.h; sourceTree = "<group>"; };
+		5DE68984FC3E2025E3F943370AD6EEB6 /* TPMGServiceConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceConfiguration.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.m; sourceTree = "<group>"; };
+		601636DF880A88C4351C07BE4213845C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		60B549D2D9E5FE2CF2412C3C1CFD4076 /* TPMGCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPMGCommon.xcconfig; sourceTree = "<group>"; };
+		639C539C84463239236DE58D13E28697 /* TPMGMemberSignOnManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberSignOnManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOnManager.h; sourceTree = "<group>"; };
+		67991D6F962B03A80F627B8AAEC7752D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		68CF9EA20E8D6BB17B9622D33CA106EA /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		6C5B55C8D00B4A369A3A71B1586E505D /* NSDate+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.m"; sourceTree = "<group>"; };
+		6D51B5A69F29E9205C85326AEDC2AE27 /* TPMGServiceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConfiguration.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceConfiguration.h; sourceTree = "<group>"; };
 		6E0A819AE42153BC57FD6747E1749C8A /* Pods-ObjectiveCPOD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectiveCPOD.debug.xcconfig"; sourceTree = "<group>"; };
+		6E199B6B123684B968E9BE68C5FDA09C /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		6E6B8B746A013DB660362966D48DC7DD /* TPMGFileDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGFileDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.h; sourceTree = "<group>"; };
+		6F3ACC10B4C44F1EC6A3ED7A666A39EF /* TPMGCommon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPMGCommon-dummy.m"; sourceTree = "<group>"; };
 		70F62B439143623F3E6151D8D171F260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75F489855B84EFB665A0455E9C4B529A /* TPMGCookieManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGCookieManager.h; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.h; sourceTree = "<group>"; };
-		7A48B3A40C473B3444B30899E0006B6A /* TPMGServiceConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceConstants.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServiceConstants.h; sourceTree = "<group>"; };
-		7A4A90C01EB267FE04FB2B7FE505F87F /* TPMGImageDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGImageDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.m; sourceTree = "<group>"; };
-		7C988E2BF26FA0848055853BC01A7314 /* NSData+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.h"; sourceTree = "<group>"; };
-		7CAA98C61F32274C4873BF7A1DD329B2 /* JVFloatLabeledTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFloatLabeledTextField-dummy.m"; sourceTree = "<group>"; };
-		805F0F9445A69569AC1DB8C372A7615D /* TPMGKeychainUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGKeychainUtility.h; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.h; sourceTree = "<group>"; };
-		837E227BA3A840E76D7E62B6F303BB5E /* TPMGCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPMGCommon.framework; path = TPMGCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		739D38C496E3B50A4FCC3F988F57F2B4 /* TPMGServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceManager.h; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.h; sourceTree = "<group>"; };
+		74A7DA3BF7B1632B6A34AD44888F68FA /* TPMGServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceManager.m; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.m; sourceTree = "<group>"; };
+		79122DC28D3D7E9B7CFA6CE35342B100 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		7DBEC91A92F3EDFAF1437C17F4DD67D2 /* TPMGCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-prefix.pch"; sourceTree = "<group>"; };
+		80404F5A83B6AEF4D42A4A30C990C32B /* TPMGCookieManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGCookieManager.h; path = TPMGCommon/TPMGCommon/Utilities/Cookies/TPMGCookieManager.h; sourceTree = "<group>"; };
 		8652ECFF35513735BE8A7C373A6C2BAF /* Pods-ObjectiveCPOD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ObjectiveCPOD-umbrella.h"; sourceTree = "<group>"; };
-		881A036421FA9229DB12216EF1C30359 /* TPMGCommon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPMGCommon.xcconfig; sourceTree = "<group>"; };
-		881BCC7D3CF014C83796651CA16501EA /* TPMGKeychainUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGKeychainUtility.m; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.m; sourceTree = "<group>"; };
-		8B3346BF59454E92E82CA71D6A44495A /* NSDate+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.h"; sourceTree = "<group>"; };
+		888C2476F6FC7B92F54BD3C50E134174 /* TPMGImageDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGImageDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.m; sourceTree = "<group>"; };
+		8C953CE5B990A4375CB5061F493F071A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9171624BA71A328A69A4FCA6998BCB88 /* TPMGBaseServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGBaseServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.m; sourceTree = "<group>"; };
 		9307254BAA2BBEAC398CA6B83B07EFE3 /* Pods-ObjectiveCPOD-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectiveCPOD-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9919213108B5BF47E19FD539AFD868C7 /* TPMGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.m; sourceTree = "<group>"; };
-		9BBA3D8DE13B5453986CFB6B0483EB0F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		9C61EBBFA90BE286CF7C9B0021ABF3F5 /* TestResultsDetailsViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TestResultsDetailsViewController.swift; path = TestCrossProPOD/Classes/TestResultsDetailsViewController.swift; sourceTree = "<group>"; };
-		9CB54AEC95F51A03DD67A104FC19BA04 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB1F701FC868D50B29FDAA68E180B17E /* TPMGAuthenticationObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationObject.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/BaseClass/TPMGAuthenticationObject.h; sourceTree = "<group>"; };
-		ABCFDD4383ED80CCE3C147CEEC685FDF /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ImageEffects.h"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		ABE179DCCBE18148EC936A4307995981 /* TPMGMemberKeepAliveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGMemberKeepAliveManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberKeepAliveManager.h; sourceTree = "<group>"; };
+		99FDE1D4287B2F088052EB7D83ECD6BE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		9A897BE6FDF9DD9456F9F2B1572122E6 /* TPMGAuthenticationChallengeHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationChallengeHandler.m; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.m; sourceTree = "<group>"; };
+		9B91E1CE1DF0FFC30073BF70E80AC1EC /* TPMGKeychainUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGKeychainUtility.h; path = TPMGCommon/TPMGCommon/Security/TPMGKeychainUtility.h; sourceTree = "<group>"; };
+		9E77966A5ED014E4F20D57FF0132A657 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		9EB3B7554AD6D0DA6C7AEA1275199893 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0EACD6A27E389846DAA2845F1B47011 /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.h"; sourceTree = "<group>"; };
+		A191C2824EC7BD944BD561D4926E4B83 /* TPMGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.m; sourceTree = "<group>"; };
+		A28F614D7B9986F885B8C61C777A5828 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A6BFE8D4F2C9A874214956D27782BEC2 /* TPMGImageDownloadRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGImageDownloadRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGImageDownloadRequest.h; sourceTree = "<group>"; };
+		A7AE0806090BB071A53806B9F97ECDE9 /* TPMGCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPMGCommon.framework; path = TPMGCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88BA061B37CD54290BAB0EDB85167F5 /* TPMGServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.h; sourceTree = "<group>"; };
+		AA6156CFFCCC37AAA3BE08BDFACDA6A8 /* NSData+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSData+Additions.h"; sourceTree = "<group>"; };
+		AB21E99417C97C44C99D1B379EBAB3FE /* TPMGMemberSignOffManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGMemberSignOffManager.m; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGMemberSignOffManager.m; sourceTree = "<group>"; };
 		AE058A3BD7BF01D652521E54A0AFE103 /* Pods-ObjectiveCPOD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ObjectiveCPOD.modulemap"; sourceTree = "<group>"; };
-		AED252014075F3542F362677A8ADAB9B /* TPMGServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.m; sourceTree = "<group>"; };
-		B3EE06A9B70AC6057E26B1245BEBF621 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextField.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		AF1AB8D8E8734ED1CE3AE060BF4FA3E7 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		B620311EF9502F3D6804DE929AEF3AAB /* Pods-ObjectiveCPOD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ObjectiveCPOD.release.xcconfig"; sourceTree = "<group>"; };
-		B807ED4F156EADD198BAB84898D37AD8 /* Pods_ObjectiveCPOD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ObjectiveCPOD.framework; path = "Pods-ObjectiveCPOD.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9E62550E60EEB5CFE6202A7FF1D933 /* TestCrossProPOD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestCrossProPOD-dummy.m"; sourceTree = "<group>"; };
 		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C6668ECBA7FA7650A3B3128A845BD9CC /* JVFloatLabeledTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFloatLabeledTextField-prefix.pch"; sourceTree = "<group>"; };
-		C7980753C41B3A16840A33134D4BDFFC /* TestCrossProPOD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestCrossProPOD.xcconfig; sourceTree = "<group>"; };
-		CB327A12DE1D9CB985C4ECAB05514913 /* TPMGServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.h; sourceTree = "<group>"; };
-		CC75002EB7C2FCC54900734C1DEB4193 /* TPMGAuthenticationChallengeHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAuthenticationChallengeHandler.h; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.h; sourceTree = "<group>"; };
-		CD936DEB812849E082E7FF18559BE87E /* TPMGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.h; sourceTree = "<group>"; };
-		D303DBDA58EE2559E65F4AA237A224B9 /* NSString+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSString+Additions.h"; sourceTree = "<group>"; };
-		D3135C1F1DA1E64827C987F7AE602F0A /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatLabeledTextView.h; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.h; sourceTree = "<group>"; };
-		D459151FDA2C7858705A881549F122A1 /* TestResultListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestResultListViewController.h; path = TestCrossProPOD/Classes/TestResultListViewController.h; sourceTree = "<group>"; };
-		DD2F897F8924BEA1C30589593018EC88 /* TPMGServiceSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceSession.h; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.h; sourceTree = "<group>"; };
-		DE5488E9B0E62DDECB370A2536E1EB6C /* TPMGAuthenticationChallengeHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAuthenticationChallengeHandler.m; path = TPMGCommon/TPMGCommon/Security/TPMGAuthenticationChallengeHandler.m; sourceTree = "<group>"; };
-		DFCC8DB4E9BF4C85B09C9AA6EDD9BA59 /* TPMGCommon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPMGCommon-prefix.pch"; sourceTree = "<group>"; };
-		E2AD6E0BE69DBF45D941668A7028E64B /* TPMGCommon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPMGCommon.modulemap; sourceTree = "<group>"; };
-		E39032215D00449ED21045F8BC425A89 /* TPMGBaseServiceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGBaseServiceRequest.h; path = TPMGCommon/TPMGCommon/Requests/TPMGBaseServiceRequest.h; sourceTree = "<group>"; };
-		E83405AA8E3646C000BF8DBDEC4724F2 /* TPMGServiceReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.h; sourceTree = "<group>"; };
+		BEB9EFF87A682D6AF42745210D1B5F1B /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C649BC40EA4A4FBDC790C166AF89D967 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatLabeledTextView.m; path = JVFloatLabeledTextField/JVFloatLabeledTextField/JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		C6E2D585E59D460E18248E03EDB9D832 /* TPMGFileDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGFileDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.m; sourceTree = "<group>"; };
+		CBE59FD38C5B3A62E941512306AE505C /* TPMGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGAlertView.m; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.m; sourceTree = "<group>"; };
+		D11F1F4EA3C3D4782B4DEFA563ED9078 /* TPMGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGAlertView.h; path = TPMGCommon/TPMGCommon/Utilities/AlertView/TPMGAlertView.h; sourceTree = "<group>"; };
+		D4A940A9378A56B4D4096979D54DC4E5 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		D59F695E07F3535437E37EF4B66E4310 /* TPMGServiceSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceSession.m; path = TPMGCommon/TPMGCommon/Classes/TPMGServiceSession.m; sourceTree = "<group>"; };
+		D5FB3F47C62D10E7E79DC5BD1B7C9F2D /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		D8F0D460FA10FFF33C8474DE7200400E /* TPMGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGReachability.h; path = TPMGCommon/TPMGCommon/Reachability/TPMGReachability.h; sourceTree = "<group>"; };
+		E5A0CABCFF0239A0BE2BB1E7164A0669 /* TPMGServiceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGServiceRequest.m; sourceTree = "<group>"; };
+		E804A58173D7E4B7E6D044B1D0A58456 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageEffects.m"; path = "TPMGCommon/TPMGCommon/Categories/UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		EC07E87D8582FB0405045A213AFB8BC4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		ED4316D1EC2F7733561875880B2FBFB5 /* Pods-ObjectiveCPOD-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ObjectiveCPOD-resources.sh"; sourceTree = "<group>"; };
-		F06BC2D2867A444DB15AF720154ACE78 /* TPMGServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServiceManager.h; path = TPMGCommon/TPMGCommon/Managers/TPMGServiceManager.h; sourceTree = "<group>"; };
-		F1EB95851DC2B6F13F8A3AAB13EC0DD3 /* TPMGServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGServices.h; path = TPMGCommon/TPMGCommon/Headers/TPMGServices.h; sourceTree = "<group>"; };
+		EDD1B13499E228E7031F1F842158FA7D /* TPMGSSOInterruptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPMGSSOInterruptManager.h; path = TPMGCommon/TPMGCommon/Utilities/Authentication/Member/TPMGSSOInterruptManager.h; sourceTree = "<group>"; };
+		EE1B72B68E3D4A179F1909D4069072AE /* NSDate+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "TPMGCommon/TPMGCommon/Categories/NSDate+Additions.h"; sourceTree = "<group>"; };
 		F2E9C3A133C75442202415ED3B3CCBEF /* Pods-ObjectiveCPOD-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ObjectiveCPOD-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F94748804910F15A7D2BF43EDD2C2959 /* TPMGFileDownloadRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGFileDownloadRequest.m; path = TPMGCommon/TPMGCommon/Requests/TPMGFileDownloadRequest.m; sourceTree = "<group>"; };
-		FA12C63E75308FCD39E471CF5DA1D3D5 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
-		FA90014EDCAB27BC91E00309A8B98739 /* TestCrossProPOD-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TestCrossProPOD-Bridging-Header.h"; path = "TestCrossProPOD/Classes/TestCrossProPOD-Bridging-Header.h"; sourceTree = "<group>"; };
-		FB8BB3F0A7185964CCA6177915438A37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F567C99917B738246791DA1614E96A04 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		F62C581C6B045D99927090C796216CA0 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		F6D46B255987725433587365505CA424 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		F81B9F233BD87E99A9004E2FC3331638 /* JVFloatLabeledTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFloatLabeledTextField.modulemap; sourceTree = "<group>"; };
+		F8555F36FD99DD798856C173F1B05987 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "JVFloatLabeledTextField/JVFloatLabeledTextField/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		FA592B71C3EA7B754B0AFFFFE7F524A3 /* TPMGServiceReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPMGServiceReachability.m; path = TPMGCommon/TPMGCommon/Reachability/TPMGServiceReachability.m; sourceTree = "<group>"; };
+		FE7485688EAECD96E7BAA4FAE0C0DB06 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A104337B0389352C044EC583FF18604 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE71B649A8EE6582BFBDE43BED83149A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1B196C26559C8C03B9E5154CF109E474 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0340B5DB6D2C89743DC0214759C4EE2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E402049C863BF5EA9D62EBFF1A1ACEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -241,27 +238,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A636EE9B89A44E97B9C06D435AC19C48 /* Frameworks */ = {
+		7CBC7CD2FCDA328F095A50204D51CB4D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3A06F49DE5B05CAFB70F7840DC8F5AD /* Foundation.framework in Frameworks */,
+				C22FEFE4F3879F7B21BE3FC61E93AC6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26585190A3F0FEEE4DBF5FFD5C2D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C90431B2A74D0C03A557600B4AE5B98 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00CE864AEAE71B538F3989ED04A04A7A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FC73379B5AAC010F984D7F98B7301FDC /* JVFloatLabeledTextField */,
-				4FED7CFFB3CF883276E33BFEDCBBB032 /* TestCrossProPOD */,
-				8D5DBFD5B6CC5C048AE03D95D375EF6A /* TPMGCommon */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,28 +274,100 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		171A30020F3E647A043E1CDF2159A07F /* Products */ = {
+		25B2D3D6CE13D366A949E6E8AC2802DA /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				5F0843F24FAC849C07341CF1E5DECC6F /* JVFloatLabeledTextField.framework */,
-				B807ED4F156EADD198BAB84898D37AD8 /* Pods_ObjectiveCPOD.framework */,
-				53C5069CA04E10A35DD001FB624538B6 /* TestCrossProPOD.framework */,
-				837E227BA3A840E76D7E62B6F303BB5E /* TPMGCommon.framework */,
+				FE7485688EAECD96E7BAA4FAE0C0DB06 /* AFError.swift */,
+				D4A940A9378A56B4D4096979D54DC4E5 /* Alamofire.swift */,
+				03B9762BBBA728CFE8BFC4865022DC61 /* DispatchQueue+Alamofire.swift */,
+				3D1D2FADF826E7D6D2F70C897FD0A5B0 /* MultipartFormData.swift */,
+				A28F614D7B9986F885B8C61C777A5828 /* NetworkReachabilityManager.swift */,
+				5AE1DBFA8697C53A556DC04AA60BBE3B /* Notifications.swift */,
+				F567C99917B738246791DA1614E96A04 /* ParameterEncoding.swift */,
+				601636DF880A88C4351C07BE4213845C /* Request.swift */,
+				F6D46B255987725433587365505CA424 /* Response.swift */,
+				35F0CAB2A46F1A285F7B490761E3A877 /* ResponseSerialization.swift */,
+				67991D6F962B03A80F627B8AAEC7752D /* Result.swift */,
+				F62C581C6B045D99927090C796216CA0 /* ServerTrustPolicy.swift */,
+				AF1AB8D8E8734ED1CE3AE060BF4FA3E7 /* SessionDelegate.swift */,
+				07421656C3368885A35D3A43C66FC5D9 /* SessionManager.swift */,
+				D5FB3F47C62D10E7E79DC5BD1B7C9F2D /* TaskDelegate.swift */,
+				BEB9EFF87A682D6AF42745210D1B5F1B /* Timeline.swift */,
+				2FD36E97BA7B1905455F1CD7ADC1DAA7 /* Validation.swift */,
+				E2B83254881E504A0ACAF69061BD8529 /* Support Files */,
 			);
-			name = Products;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		19E423830534547B744D311EC648A166 /* Support Files */ = {
+		2B354EBF75E88F1DAA293D1D4B8379FB /* TPMGCommon */ = {
 			isa = PBXGroup;
 			children = (
-				42099396BDFAE580E8FA0FF329EBF443 /* TestCrossProPOD.modulemap */,
-				C7980753C41B3A16840A33134D4BDFFC /* TestCrossProPOD.xcconfig */,
-				BA9E62550E60EEB5CFE6202A7FF1D933 /* TestCrossProPOD-dummy.m */,
-				4B18122EE21596A342F9D2EFF24BA5B1 /* TestCrossProPOD-prefix.pch */,
-				3E28951F1546E8BD6263DB70A902E6F0 /* TestCrossProPOD-umbrella.h */,
+				AA6156CFFCCC37AAA3BE08BDFACDA6A8 /* NSData+Additions.h */,
+				44ED07475F48B4F76D74C9719E8410CF /* NSData+Additions.m */,
+				EE1B72B68E3D4A179F1909D4069072AE /* NSDate+Additions.h */,
+				6C5B55C8D00B4A369A3A71B1586E505D /* NSDate+Additions.m */,
+				A0EACD6A27E389846DAA2845F1B47011 /* NSString+Additions.h */,
+				02E77676E5D52B828554E365EB2152EF /* NSString+Additions.m */,
+				D11F1F4EA3C3D4782B4DEFA563ED9078 /* TPMGAlertView.h */,
+				CBE59FD38C5B3A62E941512306AE505C /* TPMGAlertView.m */,
+				3D20C4EA937509DDC86D20955E30EA90 /* TPMGAuthenticationChallengeHandler.h */,
+				9A897BE6FDF9DD9456F9F2B1572122E6 /* TPMGAuthenticationChallengeHandler.m */,
+				123308EE797E01AF662152CB3739CE1C /* TPMGAuthenticationObject.h */,
+				4FB41B81BDBDF06E629983798CE5C7BC /* TPMGAuthenticationObject.m */,
+				3DAE9F3B0AEA91DAAF2B72FC44FD16A3 /* TPMGBaseServiceRequest.h */,
+				179A1B275AA37CF09D0EA76F2A4D6C16 /* TPMGBaseServiceRequest.m */,
+				80404F5A83B6AEF4D42A4A30C990C32B /* TPMGCookieManager.h */,
+				159A97F6C036D6D9087DD68A2BEE928B /* TPMGCookieManager.m */,
+				6E6B8B746A013DB660362966D48DC7DD /* TPMGFileDownloadRequest.h */,
+				C6E2D585E59D460E18248E03EDB9D832 /* TPMGFileDownloadRequest.m */,
+				A6BFE8D4F2C9A874214956D27782BEC2 /* TPMGImageDownloadRequest.h */,
+				888C2476F6FC7B92F54BD3C50E134174 /* TPMGImageDownloadRequest.m */,
+				9B91E1CE1DF0FFC30073BF70E80AC1EC /* TPMGKeychainUtility.h */,
+				510E1A4F31A29EA736AF0D6C751F827F /* TPMGKeychainUtility.m */,
+				2EDECCCF8A2B2575C4A2DC0FED3ED017 /* TPMGLoadingOverlay.h */,
+				0FA7C185D05FC575EF0A9213906897B1 /* TPMGLoadingOverlay.m */,
+				49F1284F1973F0D1D9DF949B93783B8B /* TPMGMemberKeepAliveManager.h */,
+				4293EAA802ACAEAF7A943F0498553970 /* TPMGMemberKeepAliveManager.m */,
+				3ED7279258F97C9F6EEB9D4C73D51191 /* TPMGMemberSignOffManager.h */,
+				AB21E99417C97C44C99D1B379EBAB3FE /* TPMGMemberSignOffManager.m */,
+				639C539C84463239236DE58D13E28697 /* TPMGMemberSignOnManager.h */,
+				30D7937EC8E41E082F33D3503A73D038 /* TPMGMemberSignOnManager.m */,
+				D8F0D460FA10FFF33C8474DE7200400E /* TPMGReachability.h */,
+				A191C2824EC7BD944BD561D4926E4B83 /* TPMGReachability.m */,
+				6D51B5A69F29E9205C85326AEDC2AE27 /* TPMGServiceConfiguration.h */,
+				5DE68984FC3E2025E3F943370AD6EEB6 /* TPMGServiceConfiguration.m */,
+				532C8A3A278B4F46C52BFFB56E6E90D5 /* TPMGServiceConstants.h */,
+				26D8FD46E4891F32700926148E645FD7 /* TPMGServiceError.h */,
+				01199F1F2AF827EE30E790C9D7B11BE2 /* TPMGServiceError.m */,
+				739D38C496E3B50A4FCC3F988F57F2B4 /* TPMGServiceManager.h */,
+				74A7DA3BF7B1632B6A34AD44888F68FA /* TPMGServiceManager.m */,
+				03492954B164683294B63EB829483BE0 /* TPMGServiceReachability.h */,
+				FA592B71C3EA7B754B0AFFFFE7F524A3 /* TPMGServiceReachability.m */,
+				A88BA061B37CD54290BAB0EDB85167F5 /* TPMGServiceRequest.h */,
+				E5A0CABCFF0239A0BE2BB1E7164A0669 /* TPMGServiceRequest.m */,
+				4B04A00E9FB033E77FC7305608C21DC0 /* TPMGServices.h */,
+				5D42A78992F264FC13A9856C6173593D /* TPMGServiceSession.h */,
+				D59F695E07F3535437E37EF4B66E4310 /* TPMGServiceSession.m */,
+				EDD1B13499E228E7031F1F842158FA7D /* TPMGSSOInterruptManager.h */,
+				3B489659D5A7B1B9B1AC0D61AAE55F93 /* TPMGSSOInterruptManager.m */,
+				68CF9EA20E8D6BB17B9622D33CA106EA /* UIImage+ImageEffects.h */,
+				E804A58173D7E4B7E6D044B1D0A58456 /* UIImage+ImageEffects.m */,
+				E164ADD334CC0AB0C978D3BA00578ACC /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TestCrossProPOD";
+			name = TPMGCommon;
+			path = TPMGCommon;
+			sourceTree = "<group>";
+		};
+		2E4CEDA8C445689BFF50694CB4CF11DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C953CE5B990A4375CB5061F493F071A /* Alamofire.framework */,
+				3DF17AC9C021E29B14240AC614C5C088 /* JVFloatLabeledTextField.framework */,
+				225BA277D64744BBBC8D3E8FFACE5238 /* Pods_ObjectiveCPOD.framework */,
+				A7AE0806090BB071A53806B9F97ECDE9 /* TPMGCommon.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -303,32 +378,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		478411F8DA422FAC82145E0B9694B6D2 /* Support Files */ = {
+		7C80FA8CC92A762370495929D5AE3CCA /* JVFloatLabeledTextField */ = {
 			isa = PBXGroup;
 			children = (
-				278CE1847ECECB3CF4193434048D53D7 /* JVFloatLabeledTextField.modulemap */,
-				25F12E5C11C18175BE574FDD11E78A4C /* JVFloatLabeledTextField.xcconfig */,
-				7CAA98C61F32274C4873BF7A1DD329B2 /* JVFloatLabeledTextField-dummy.m */,
-				C6668ECBA7FA7650A3B3128A845BD9CC /* JVFloatLabeledTextField-prefix.pch */,
-				2360F21B1FAAA3A178C413E17B6AFE27 /* JVFloatLabeledTextField-umbrella.h */,
+				015B564A31FFEF1DAABEF46CE93C34C6 /* JVFloatLabeledTextField.h */,
+				6E199B6B123684B968E9BE68C5FDA09C /* JVFloatLabeledTextField.m */,
+				79122DC28D3D7E9B7CFA6CE35342B100 /* JVFloatLabeledTextView.h */,
+				C649BC40EA4A4FBDC790C166AF89D967 /* JVFloatLabeledTextView.m */,
+				F8555F36FD99DD798856C173F1B05987 /* NSString+TextDirectionality.h */,
+				9E77966A5ED014E4F20D57FF0132A657 /* NSString+TextDirectionality.m */,
+				85974277E1F4F7A0AD45F3F833D35FB2 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/JVFloatLabeledTextField";
-			sourceTree = "<group>";
-		};
-		4FED7CFFB3CF883276E33BFEDCBBB032 /* TestCrossProPOD */ = {
-			isa = PBXGroup;
-			children = (
-				5057F69C55344DDAF00FDA90F3E67AAC /* RangeSlider.swift */,
-				FA90014EDCAB27BC91E00309A8B98739 /* TestCrossProPOD-Bridging-Header.h */,
-				D459151FDA2C7858705A881549F122A1 /* TestResultListViewController.h */,
-				53D8276F6E528C8C19F7A9D0C18BBF6C /* TestResultListViewController.m */,
-				9C61EBBFA90BE286CF7C9B0021ABF3F5 /* TestResultsDetailsViewController.swift */,
-				9F0BBB77F68B8E544EDCABD80CD6F8B4 /* Resources */,
-				19E423830534547B744D311EC648A166 /* Support Files */,
-			);
-			name = TestCrossProPOD;
-			path = TestCrossProPOD;
+			name = JVFloatLabeledTextField;
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -336,10 +398,23 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				00CE864AEAE71B538F3989ED04A04A7A /* Pods */,
-				171A30020F3E647A043E1CDF2159A07F /* Products */,
+				FC8E25BBCA28AD90FEB0FD3B40A70A73 /* Pods */,
+				2E4CEDA8C445689BFF50694CB4CF11DF /* Products */,
 				8CF1FB45A27C4AD841F717FA28775E75 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		85974277E1F4F7A0AD45F3F833D35FB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F81B9F233BD87E99A9004E2FC3331638 /* JVFloatLabeledTextField.modulemap */,
+				49FEF08742B6D03EBA73810E49A83755 /* JVFloatLabeledTextField.xcconfig */,
+				439D08D6807CA6CBC1EC62A159B0F131 /* JVFloatLabeledTextField-dummy.m */,
+				05682CE2AA699E7CD6C9B215AA75182A /* JVFloatLabeledTextField-prefix.pch */,
+				067960A4AFA06D398BE1B11B67123F89 /* JVFloatLabeledTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JVFloatLabeledTextField";
 			sourceTree = "<group>";
 		};
 		8CF1FB45A27C4AD841F717FA28775E75 /* Targets Support Files */ = {
@@ -348,88 +423,6 @@
 				BD5FBED55C50045670D63FB8F0712530 /* Pods-ObjectiveCPOD */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		8D5DBFD5B6CC5C048AE03D95D375EF6A /* TPMGCommon */ = {
-			isa = PBXGroup;
-			children = (
-				7C988E2BF26FA0848055853BC01A7314 /* NSData+Additions.h */,
-				1C2EF9845D2E8BF24F30BF4765BD883D /* NSData+Additions.m */,
-				8B3346BF59454E92E82CA71D6A44495A /* NSDate+Additions.h */,
-				2979396C77CC78111ED1964C275C874D /* NSDate+Additions.m */,
-				D303DBDA58EE2559E65F4AA237A224B9 /* NSString+Additions.h */,
-				141D845BBBFF3018AF1E1BB0C2587DD3 /* NSString+Additions.m */,
-				1EF72B237BA9C187DF6626AE3872DC22 /* TPMGAlertView.h */,
-				38CF40689BD28FD4A1AB29C17AFE8140 /* TPMGAlertView.m */,
-				CC75002EB7C2FCC54900734C1DEB4193 /* TPMGAuthenticationChallengeHandler.h */,
-				DE5488E9B0E62DDECB370A2536E1EB6C /* TPMGAuthenticationChallengeHandler.m */,
-				AB1F701FC868D50B29FDAA68E180B17E /* TPMGAuthenticationObject.h */,
-				4C8BC676A10A332E970F9DD49C4A4B52 /* TPMGAuthenticationObject.m */,
-				E39032215D00449ED21045F8BC425A89 /* TPMGBaseServiceRequest.h */,
-				9171624BA71A328A69A4FCA6998BCB88 /* TPMGBaseServiceRequest.m */,
-				75F489855B84EFB665A0455E9C4B529A /* TPMGCookieManager.h */,
-				304B840D07B6CB8FA51A73AFDD9A11D7 /* TPMGCookieManager.m */,
-				353FF28A5DE4A028137FC26955856A43 /* TPMGFileDownloadRequest.h */,
-				F94748804910F15A7D2BF43EDD2C2959 /* TPMGFileDownloadRequest.m */,
-				66E377092A9AE849BEB76BEC788549F9 /* TPMGImageDownloadRequest.h */,
-				7A4A90C01EB267FE04FB2B7FE505F87F /* TPMGImageDownloadRequest.m */,
-				805F0F9445A69569AC1DB8C372A7615D /* TPMGKeychainUtility.h */,
-				881BCC7D3CF014C83796651CA16501EA /* TPMGKeychainUtility.m */,
-				1BF3E35FAA199DBDFCC14181D1924C0A /* TPMGLoadingOverlay.h */,
-				067ACA3D4DB0F2C20F1E4DB368F6387A /* TPMGLoadingOverlay.m */,
-				ABE179DCCBE18148EC936A4307995981 /* TPMGMemberKeepAliveManager.h */,
-				3B4DAE316978D8E00E88F8C4222210E5 /* TPMGMemberKeepAliveManager.m */,
-				42CA9A153B5A5A5D41EFF552B1DC1590 /* TPMGMemberSignOffManager.h */,
-				1C82BEEDF7F96BB9F09A2879FBA3E4C4 /* TPMGMemberSignOffManager.m */,
-				184C1F049E343B7833C2BA68E21ABFC7 /* TPMGMemberSignOnManager.h */,
-				463517A488332276A0EF06C5EEF649C6 /* TPMGMemberSignOnManager.m */,
-				CD936DEB812849E082E7FF18559BE87E /* TPMGReachability.h */,
-				9919213108B5BF47E19FD539AFD868C7 /* TPMGReachability.m */,
-				5906415C42CA253DE1D750F391940989 /* TPMGServiceConfiguration.h */,
-				51CEC127783989AC2B07324AD7A2A53F /* TPMGServiceConfiguration.m */,
-				7A48B3A40C473B3444B30899E0006B6A /* TPMGServiceConstants.h */,
-				38B9C53C81438B955A715029246F0972 /* TPMGServiceError.h */,
-				07BFDC27911CB4B6DC8492B1B9C7AE7A /* TPMGServiceError.m */,
-				F06BC2D2867A444DB15AF720154ACE78 /* TPMGServiceManager.h */,
-				0D1693BE09A9830ACF51747FD22B1E1C /* TPMGServiceManager.m */,
-				E83405AA8E3646C000BF8DBDEC4724F2 /* TPMGServiceReachability.h */,
-				5277691FB58B3ADAFB6CE84D20E6D62C /* TPMGServiceReachability.m */,
-				CB327A12DE1D9CB985C4ECAB05514913 /* TPMGServiceRequest.h */,
-				AED252014075F3542F362677A8ADAB9B /* TPMGServiceRequest.m */,
-				F1EB95851DC2B6F13F8A3AAB13EC0DD3 /* TPMGServices.h */,
-				DD2F897F8924BEA1C30589593018EC88 /* TPMGServiceSession.h */,
-				17B26A2CDBB7AD6BD9CFDDAD2F2F7B84 /* TPMGServiceSession.m */,
-				5B9CDF1265521A9FF2C345C94C0FF763 /* TPMGSSOInterruptManager.h */,
-				02D85B6816C1FAB19502A7CB7BBF78C7 /* TPMGSSOInterruptManager.m */,
-				ABCFDD4383ED80CCE3C147CEEC685FDF /* UIImage+ImageEffects.h */,
-				9BBA3D8DE13B5453986CFB6B0483EB0F /* UIImage+ImageEffects.m */,
-				B97C375EA8DD2F277ED33B5180C71349 /* Support Files */,
-			);
-			name = TPMGCommon;
-			path = TPMGCommon;
-			sourceTree = "<group>";
-		};
-		9F0BBB77F68B8E544EDCABD80CD6F8B4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FFC2BDD0CA8157AB4B61B61693BD66B0 /* LaunchScreen.storyboard */,
-				5C24B26CD34084A6C8BA3B5B84602657 /* Main.storyboard */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B97C375EA8DD2F277ED33B5180C71349 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB8BB3F0A7185964CCA6177915438A37 /* Info.plist */,
-				E2AD6E0BE69DBF45D941668A7028E64B /* TPMGCommon.modulemap */,
-				881A036421FA9229DB12216EF1C30359 /* TPMGCommon.xcconfig */,
-				4B9C4D51CE99866F3BE0B94666AB7DB9 /* TPMGCommon-dummy.m */,
-				DFCC8DB4E9BF4C85B09C9AA6EDD9BA59 /* TPMGCommon-prefix.pch */,
-				68558E5D0D3E1817E0AD6F58FD70F94C /* TPMGCommon-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TPMGCommon";
 			sourceTree = "<group>";
 		};
 		BD5FBED55C50045670D63FB8F0712530 /* Pods-ObjectiveCPOD */ = {
@@ -450,39 +443,77 @@
 			path = "Target Support Files/Pods-ObjectiveCPOD";
 			sourceTree = "<group>";
 		};
-		FC73379B5AAC010F984D7F98B7301FDC /* JVFloatLabeledTextField */ = {
+		E164ADD334CC0AB0C978D3BA00578ACC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				36CC7241A4FD3A99B4EF7345447E6248 /* JVFloatLabeledTextField.h */,
-				B3EE06A9B70AC6057E26B1245BEBF621 /* JVFloatLabeledTextField.m */,
-				D3135C1F1DA1E64827C987F7AE602F0A /* JVFloatLabeledTextView.h */,
-				3B05A792114C6749351C928299E4DB0B /* JVFloatLabeledTextView.m */,
-				6D5A3DB2A2A496ADF8850D652225DAA5 /* NSString+TextDirectionality.h */,
-				FA12C63E75308FCD39E471CF5DA1D3D5 /* NSString+TextDirectionality.m */,
-				478411F8DA422FAC82145E0B9694B6D2 /* Support Files */,
+				9EB3B7554AD6D0DA6C7AEA1275199893 /* Info.plist */,
+				497EAA79295E51EF1393A37A8DC67E7B /* TPMGCommon.modulemap */,
+				60B549D2D9E5FE2CF2412C3C1CFD4076 /* TPMGCommon.xcconfig */,
+				6F3ACC10B4C44F1EC6A3ED7A666A39EF /* TPMGCommon-dummy.m */,
+				7DBEC91A92F3EDFAF1437C17F4DD67D2 /* TPMGCommon-prefix.pch */,
+				5883A9A172B652FA25B2B37ED40F8BFB /* TPMGCommon-umbrella.h */,
 			);
-			name = JVFloatLabeledTextField;
-			path = JVFloatLabeledTextField;
+			name = "Support Files";
+			path = "../Target Support Files/TPMGCommon";
+			sourceTree = "<group>";
+		};
+		E2B83254881E504A0ACAF69061BD8529 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E7BDA114435C128B671943073909C88 /* Alamofire.modulemap */,
+				09C58D1ABF6E6E5438549D15CF33329A /* Alamofire.xcconfig */,
+				39BB81F7D86C679C889397D10DB957FF /* Alamofire-dummy.m */,
+				99FDE1D4287B2F088052EB7D83ECD6BE /* Alamofire-prefix.pch */,
+				EC07E87D8582FB0405045A213AFB8BC4 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		FC8E25BBCA28AD90FEB0FD3B40A70A73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B2D3D6CE13D366A949E6E8AC2802DA /* Alamofire */,
+				7C80FA8CC92A762370495929D5AE3CCA /* JVFloatLabeledTextField */,
+				2B354EBF75E88F1DAA293D1D4B8379FB /* TPMGCommon */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D32F5EA2745A84344CC6EFE2241CE08 /* Headers */ = {
+		2264E69734395D0A780F640B7A9852B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F2279815C0BECD1DE19DA5F634AF038 /* Pods-ObjectiveCPOD-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9298BC1417DBA72A335F9209A8E8348B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				626476F057D090E5DFE299A839E0DE0A /* TestCrossProPOD-Bridging-Header.h in Headers */,
-				3425595E2931805010A5933B7ADD5A59 /* TestCrossProPOD-umbrella.h in Headers */,
-				B20C3B5570F5A8E92712A3C7AB32EFBA /* TestResultListViewController.h in Headers */,
+				05F8836268EDA94A9F44F63C9680D0E4 /* NSData+Additions.h in Headers */,
+				ABFAC3C1BEA22B3BD5FE5A4082170312 /* NSDate+Additions.h in Headers */,
+				B1B21F5A52B2B08BB52AE73521BE4E78 /* NSString+Additions.h in Headers */,
+				14317E12E0F36AAF1B9D01DB2F701751 /* TPMGAlertView.h in Headers */,
+				93C6C3D5C2C3068C98B5FAC86E5D409B /* TPMGAuthenticationChallengeHandler.h in Headers */,
+				AAA1AC512EDB565E7FECDF3904ABA334 /* TPMGAuthenticationObject.h in Headers */,
+				63D31F3733A20ADA9E3FC10C52C2C99A /* TPMGBaseServiceRequest.h in Headers */,
+				4F94E8C724E5A52C4FEE22FA53E028C1 /* TPMGCommon-umbrella.h in Headers */,
+				D3E70012D288D43F678044BED48B598E /* TPMGCookieManager.h in Headers */,
+				AC7F1AF8A5FAE80C62F4F717917BD60B /* TPMGFileDownloadRequest.h in Headers */,
+				B0825E28045D047A900CEA5424BC81B3 /* TPMGImageDownloadRequest.h in Headers */,
+				F1A99758CD5CA6C81966FF3CB4C2F88B /* TPMGKeychainUtility.h in Headers */,
+				B375404006837057394274FD2431038D /* TPMGLoadingOverlay.h in Headers */,
+				55669B8828FEEDE37E4D848124616C53 /* TPMGMemberKeepAliveManager.h in Headers */,
+				E323E1A3E69D5A4CA0491AB1399B3665 /* TPMGMemberSignOffManager.h in Headers */,
+				4A53C808127E8F738051FB5CFE71BA8B /* TPMGMemberSignOnManager.h in Headers */,
+				2AA28ADDB5120277CC971D24EB088E57 /* TPMGReachability.h in Headers */,
+				E81BF547EB60793620BB0C92A9388BFD /* TPMGServiceConfiguration.h in Headers */,
+				C20D37009662BE4E80326A6117B2B7A0 /* TPMGServiceConstants.h in Headers */,
+				5639920A7593627F74BE765A2FA2F0F3 /* TPMGServiceError.h in Headers */,
+				B5222EA18BBFBF1BBCAC60C4DFCF8319 /* TPMGServiceManager.h in Headers */,
+				0EFE2AA09C9DE148BF81BFFDBD543A95 /* TPMGServiceReachability.h in Headers */,
+				4D9581ED98FF1E9A5B519C188E4C4269 /* TPMGServiceRequest.h in Headers */,
+				A82221FE882447F52F72445E1C649EBC /* TPMGServices.h in Headers */,
+				0756EC380948A3891325FC655A26883A /* TPMGServiceSession.h in Headers */,
+				5374F4C971198C18712D9600182DC8C6 /* TPMGSSOInterruptManager.h in Headers */,
+				EA2E14473A1161B8CD81DD2C5F508CC2 /* UIImage+ImageEffects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,37 +528,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED4A256A735679DE4F7BCE9361188EA2 /* Headers */ = {
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C4B673F6D6636F07ECE494A55717184 /* NSData+Additions.h in Headers */,
-				71A338F193CC420A082C8D36E0B207B1 /* NSDate+Additions.h in Headers */,
-				74188D98C6C671A03CF5EEDFBF9320CD /* NSString+Additions.h in Headers */,
-				F00E1CDA2C818F82E318066B089D81E4 /* TPMGAlertView.h in Headers */,
-				4CBD186BE635935CC980B99222EAC637 /* TPMGAuthenticationChallengeHandler.h in Headers */,
-				55D783AF5B60F100569F68E66CBA2B4A /* TPMGAuthenticationObject.h in Headers */,
-				AB17558432710F45EEACBDC5559FDB5C /* TPMGBaseServiceRequest.h in Headers */,
-				787347BF1BB8A841A4A53CD64F3C91EA /* TPMGCommon-umbrella.h in Headers */,
-				A04BE23CFB36B29A59F27F69D9734BC7 /* TPMGCookieManager.h in Headers */,
-				193B06A6EBB41BDC2172A42A37DC979E /* TPMGFileDownloadRequest.h in Headers */,
-				024CCCAEA305D43D7430B41C90311965 /* TPMGImageDownloadRequest.h in Headers */,
-				69683D6C46ABD8237B1DDA3CC7887EE6 /* TPMGKeychainUtility.h in Headers */,
-				E11FF04CB13FEE6FD6ACD57F8EE8C32C /* TPMGLoadingOverlay.h in Headers */,
-				CD08C2DEF44160DD3D19C7F1A6B1DA3E /* TPMGMemberKeepAliveManager.h in Headers */,
-				3CB3568260C64A958497FB65DD28D815 /* TPMGMemberSignOffManager.h in Headers */,
-				72FDE27BBAE4551C7AEEA8FDEEE62D2D /* TPMGMemberSignOnManager.h in Headers */,
-				76DD619431E62422D136974B1FB2317F /* TPMGReachability.h in Headers */,
-				CBF8AA64A62254D88BC6ED30272018DF /* TPMGServiceConfiguration.h in Headers */,
-				2C9786C147CC78DC3422407DB3A6A209 /* TPMGServiceConstants.h in Headers */,
-				B84CD47000B648B42C29EFB640CFB464 /* TPMGServiceError.h in Headers */,
-				C1D666719DE5EDB7FCBD4005EB60DAA7 /* TPMGServiceManager.h in Headers */,
-				43ECACFB0208A76ECCF605E6C97F579D /* TPMGServiceReachability.h in Headers */,
-				6B65DEBB73C9CBD86E026ACEAB43AD50 /* TPMGServiceRequest.h in Headers */,
-				E7E3B09FE5A137E7A0108BE58CD3161E /* TPMGServices.h in Headers */,
-				837F86A711B11946EC1D721C71FDBF2C /* TPMGServiceSession.h in Headers */,
-				BA8692B31A79EC065D35A94358E83896 /* TPMGSSOInterruptManager.h in Headers */,
-				BF1CD2D74AFD9D0BCEAC0B986BF6C344 /* UIImage+ImageEffects.h in Headers */,
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED28E37F27134642497DB745DEC0B3A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7B5F29019EC21928B8FCAE2217089C /* Pods-ObjectiveCPOD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,55 +561,33 @@
 			);
 			name = JVFloatLabeledTextField;
 			productName = JVFloatLabeledTextField;
-			productReference = 5F0843F24FAC849C07341CF1E5DECC6F /* JVFloatLabeledTextField.framework */;
+			productReference = 3DF17AC9C021E29B14240AC614C5C088 /* JVFloatLabeledTextField.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2B957FE1F5D6A4763EF7354041F24160 /* TestCrossProPOD */ = {
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4C3FF4AC657188FFB1DA1E70B0EE5A3 /* Build configuration list for PBXNativeTarget "TestCrossProPOD" */;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				63754EB3271FFBFD227C62C227727203 /* Sources */,
-				1B196C26559C8C03B9E5154CF109E474 /* Frameworks */,
-				9298BC1417DBA72A335F9209A8E8348B /* Headers */,
-				F3131811C6CCF9F96D8F296232C7E14C /* Resources */,
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39DB5942B64307129F00FE01FD846008 /* PBXTargetDependency */,
 			);
-			name = TestCrossProPOD;
-			productName = TestCrossProPOD;
-			productReference = 53C5069CA04E10A35DD001FB624538B6 /* TestCrossProPOD.framework */;
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 8C953CE5B990A4375CB5061F493F071A /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BBC7668387B8ABC17D6E2645E4D252D0 /* Pods-ObjectiveCPOD */ = {
+		94178C7EF79FB5EE9505E6EED587EA94 /* TPMGCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 616964967AA01F6DA0226A8BBD2C7A22 /* Build configuration list for PBXNativeTarget "Pods-ObjectiveCPOD" */;
+			buildConfigurationList = 25734BDA7F5FE9967107AB7A4AC3624F /* Build configuration list for PBXNativeTarget "TPMGCommon" */;
 			buildPhases = (
-				1CD6BB7CFC7BAAA0464B337CEABA7D75 /* Sources */,
-				A636EE9B89A44E97B9C06D435AC19C48 /* Frameworks */,
-				2D32F5EA2745A84344CC6EFE2241CE08 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DEA84D513F8B399E36A1C55B881FC5A6 /* PBXTargetDependency */,
-				CBF7E5D3F8EC13EDC7C2DB884B0438C2 /* PBXTargetDependency */,
-				3F910A54C9A451B01D1ED173E0AD045F /* PBXTargetDependency */,
-			);
-			name = "Pods-ObjectiveCPOD";
-			productName = "Pods-ObjectiveCPOD";
-			productReference = B807ED4F156EADD198BAB84898D37AD8 /* Pods_ObjectiveCPOD.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E9C3FB3D7EF6947597B3BAB59D79D62F /* TPMGCommon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B970DEF45C608D19F32BC1D4BA2D9691 /* Build configuration list for PBXNativeTarget "TPMGCommon" */;
-			buildPhases = (
-				19F2FFD37E5729607629096259474A46 /* Sources */,
-				1A104337B0389352C044EC583FF18604 /* Frameworks */,
-				ED4A256A735679DE4F7BCE9361188EA2 /* Headers */,
+				01FE3763C4196AAB991F36EC9EC7A45C /* Sources */,
+				7CBC7CD2FCDA328F095A50204D51CB4D /* Frameworks */,
+				2264E69734395D0A780F640B7A9852B5 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -604,7 +595,27 @@
 			);
 			name = TPMGCommon;
 			productName = TPMGCommon;
-			productReference = 837E227BA3A840E76D7E62B6F303BB5E /* TPMGCommon.framework */;
+			productReference = A7AE0806090BB071A53806B9F97ECDE9 /* TPMGCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F40DB5A5D36DD3BB1F765977BCDA63C8 /* Pods-ObjectiveCPOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20977235B8E76B44E5D77BE7170405EB /* Build configuration list for PBXNativeTarget "Pods-ObjectiveCPOD" */;
+			buildPhases = (
+				728E5005234DE75F08044025F8D7B0B6 /* Sources */,
+				EF26585190A3F0FEEE4DBF5FFD5C2D5F /* Frameworks */,
+				ED28E37F27134642497DB745DEC0B3A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2ACD3EE53F42309B0DABE12CCE1CEB7 /* PBXTargetDependency */,
+				CE96F34FDA9E29363351FEA6AE2EC420 /* PBXTargetDependency */,
+				DD820177B70CF283C5DFDB077DD2F2C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ObjectiveCPOD";
+			productName = "Pods-ObjectiveCPOD";
+			productReference = 225BA277D64744BBBC8D3E8FFACE5238 /* Pods_ObjectiveCPOD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -624,68 +635,73 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 171A30020F3E647A043E1CDF2159A07F /* Products */;
+			productRefGroup = 2E4CEDA8C445689BFF50694CB4CF11DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
 				2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */,
-				BBC7668387B8ABC17D6E2645E4D252D0 /* Pods-ObjectiveCPOD */,
-				2B957FE1F5D6A4763EF7354041F24160 /* TestCrossProPOD */,
-				E9C3FB3D7EF6947597B3BAB59D79D62F /* TPMGCommon */,
+				F40DB5A5D36DD3BB1F765977BCDA63C8 /* Pods-ObjectiveCPOD */,
+				94178C7EF79FB5EE9505E6EED587EA94 /* TPMGCommon */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		F3131811C6CCF9F96D8F296232C7E14C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6A0E2124C8FF7D2069C89CCAEF1AA78 /* LaunchScreen.storyboard in Resources */,
-				E39CA65106D4801A63215A847F9FA04E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		19F2FFD37E5729607629096259474A46 /* Sources */ = {
+		01FE3763C4196AAB991F36EC9EC7A45C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B101310402DA8138079B4D3260281F84 /* NSData+Additions.m in Sources */,
-				2F980936512A3B345B0856F38B9583E6 /* NSDate+Additions.m in Sources */,
-				A9005CD4BCB056DCCE2ECFA63643296A /* NSString+Additions.m in Sources */,
-				25B6FF9562628F23DD069F2D258F4F85 /* TPMGAlertView.m in Sources */,
-				592FB700C162724D693CD46509967138 /* TPMGAuthenticationChallengeHandler.m in Sources */,
-				45C757A14FC3BCE399AB0177CF8B83E7 /* TPMGAuthenticationObject.m in Sources */,
-				65EF2DA9F8D32D3DE7F54D1F6B2812EA /* TPMGBaseServiceRequest.m in Sources */,
-				782D3200E3C2A1180487014BCF6497A0 /* TPMGCommon-dummy.m in Sources */,
-				4A483AF6B341069A51D2465DC7B71502 /* TPMGCookieManager.m in Sources */,
-				531769E75ED95F534DCB75ADCB740CA2 /* TPMGFileDownloadRequest.m in Sources */,
-				B5AC2BB46198A2E2EA8CAE0CD816FEAB /* TPMGImageDownloadRequest.m in Sources */,
-				74690DD01DC85641F3784E268C0BFBCD /* TPMGKeychainUtility.m in Sources */,
-				60B48ECC1121C20E54CE4D748ACBEFCF /* TPMGLoadingOverlay.m in Sources */,
-				F0A79F41910AEE1A7F0727B1204D17D8 /* TPMGMemberKeepAliveManager.m in Sources */,
-				9AA4D5F255F37E2A67C619EF09109E45 /* TPMGMemberSignOffManager.m in Sources */,
-				3C06679E67B62CF6A333B5D58F912164 /* TPMGMemberSignOnManager.m in Sources */,
-				323E828C3965840271921AFA42ADE1E2 /* TPMGReachability.m in Sources */,
-				7F8956EE9AA323AC9B48F2C70109D511 /* TPMGServiceConfiguration.m in Sources */,
-				D53D01A6D91C2673D80AEEDA55D5E190 /* TPMGServiceError.m in Sources */,
-				8E732E93BD11B4E83185D3C59D397C3A /* TPMGServiceManager.m in Sources */,
-				44909F77CB4662FD594F557684120F81 /* TPMGServiceReachability.m in Sources */,
-				95DF52304518F37A5B54D6965A4BF2D3 /* TPMGServiceRequest.m in Sources */,
-				7B49385B19CF846AB63F9B4C226DC1A2 /* TPMGServiceSession.m in Sources */,
-				A47637CA57BA4B2EB97F70AB5A1C50F3 /* TPMGSSOInterruptManager.m in Sources */,
-				276BAA5E55D738268718ABCA30E7E18D /* UIImage+ImageEffects.m in Sources */,
+				30CD8CA3F62EF349BA731DC3C390E08E /* NSData+Additions.m in Sources */,
+				138AAEAA224A251963149B5FA3FCFD5D /* NSDate+Additions.m in Sources */,
+				52F1740D1D30580BD9D9416AB4C3FD1B /* NSString+Additions.m in Sources */,
+				F4E385668E9D968A8550B0B089948A4B /* TPMGAlertView.m in Sources */,
+				26632CF9818B96A5212301F93FDB9698 /* TPMGAuthenticationChallengeHandler.m in Sources */,
+				52F578F5338E9E72432139E055A66813 /* TPMGAuthenticationObject.m in Sources */,
+				B813112D48E6A694EA3BB7962515C2F3 /* TPMGBaseServiceRequest.m in Sources */,
+				15BDBAE8B46ED23FDA7990862A137E3E /* TPMGCommon-dummy.m in Sources */,
+				B49B3A5A75A0E50EE08DC04D901639F8 /* TPMGCookieManager.m in Sources */,
+				574E3A5B654F86454FECDDCF230C015C /* TPMGFileDownloadRequest.m in Sources */,
+				2E1C1A5AF814B4BD9864A9AD28EAA3FE /* TPMGImageDownloadRequest.m in Sources */,
+				34577C94976E93C1C4DC56E0755EC679 /* TPMGKeychainUtility.m in Sources */,
+				3F4A47BD498E6023F0B00547825942FA /* TPMGLoadingOverlay.m in Sources */,
+				F8E5994B99AE31764186F4C8A0637706 /* TPMGMemberKeepAliveManager.m in Sources */,
+				7FF18CAD02B9B0377D1F1462EFAF890D /* TPMGMemberSignOffManager.m in Sources */,
+				FE9361A617E1AF96E7B8D7DA0CF2D572 /* TPMGMemberSignOnManager.m in Sources */,
+				BDA083249C757B8C170AA693CE1E25B8 /* TPMGReachability.m in Sources */,
+				629D499B4205A6A726CF61800276FC1D /* TPMGServiceConfiguration.m in Sources */,
+				FEFEAE7D5362AA0A2E5BDB95C624BCC1 /* TPMGServiceError.m in Sources */,
+				78A4BD992672BA763A80A6E22A2B6D40 /* TPMGServiceManager.m in Sources */,
+				257892E9E66799BE58B67588D2030A6F /* TPMGServiceReachability.m in Sources */,
+				2686463634C0AAC5B132EC25D732376D /* TPMGServiceRequest.m in Sources */,
+				748DD232A3D13D54F67297A2172F8C4B /* TPMGServiceSession.m in Sources */,
+				8C0B55BA59BE7C088B086ACE8D04FF9A /* TPMGSSOInterruptManager.m in Sources */,
+				C4B3C12069513FD92DB352172DAA2724 /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1CD6BB7CFC7BAAA0464B337CEABA7D75 /* Sources */ = {
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE91CFFFE1A45DBEC6B20BB1E73111C /* Pods-ObjectiveCPOD-dummy.m in Sources */,
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,68 +716,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63754EB3271FFBFD227C62C227727203 /* Sources */ = {
+		728E5005234DE75F08044025F8D7B0B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DEAFB2C96A9600DC5EAC3187D9000FC /* RangeSlider.swift in Sources */,
-				2C8C63E5932477A849A33044FF80A798 /* TestCrossProPOD-dummy.m in Sources */,
-				D46443314FBF9BBC1F4798B5CBB83DEF /* TestResultListViewController.m in Sources */,
-				12F06FB643A535EACA03C7695CF52CA7 /* TestResultsDetailsViewController.swift in Sources */,
+				D759E5A3A1CDD40653FCBB6359D9455B /* Pods-ObjectiveCPOD-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39DB5942B64307129F00FE01FD846008 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TPMGCommon;
-			target = E9C3FB3D7EF6947597B3BAB59D79D62F /* TPMGCommon */;
-			targetProxy = 23758574FECA6BFE52346165B4BEB7F3 /* PBXContainerItemProxy */;
-		};
-		3F910A54C9A451B01D1ED173E0AD045F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TestCrossProPOD;
-			target = 2B957FE1F5D6A4763EF7354041F24160 /* TestCrossProPOD */;
-			targetProxy = D72C545622B35DA3CB3EFC957FA2BB53 /* PBXContainerItemProxy */;
-		};
-		CBF7E5D3F8EC13EDC7C2DB884B0438C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TPMGCommon;
-			target = E9C3FB3D7EF6947597B3BAB59D79D62F /* TPMGCommon */;
-			targetProxy = 3542D91AD67E6D7F4E8CF4A9935B16BD /* PBXContainerItemProxy */;
-		};
-		DEA84D513F8B399E36A1C55B881FC5A6 /* PBXTargetDependency */ = {
+		CE96F34FDA9E29363351FEA6AE2EC420 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVFloatLabeledTextField;
 			target = 2A4448146C785C426971111F117D773C /* JVFloatLabeledTextField */;
-			targetProxy = B1E9264E33AFF7696ED190C0F7434B74 /* PBXContainerItemProxy */;
+			targetProxy = 7DC01D406F15D7A6D5917BD97CB98044 /* PBXContainerItemProxy */;
+		};
+		D2ACD3EE53F42309B0DABE12CCE1CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 08DD383630ADE68EEEB5ABA5BF8B4014 /* PBXContainerItemProxy */;
+		};
+		DD820177B70CF283C5DFDB077DD2F2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPMGCommon;
+			target = 94178C7EF79FB5EE9505E6EED587EA94 /* TPMGCommon */;
+			targetProxy = 6074427CBF58BD8E7B869CA56C4881AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		5C24B26CD34084A6C8BA3B5B84602657 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9CB54AEC95F51A03DD67A104FC19BA04 /* Main.storyboard */,
-			);
-			name = Main.storyboard;
-			path = TestCrossProPOD;
-			sourceTree = "<group>";
-		};
-		FFC2BDD0CA8157AB4B61B61693BD66B0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				56955150636302A1A5AFD88C440A7A3F /* LaunchScreen.storyboard */,
-			);
-			name = LaunchScreen.storyboard;
-			path = TestCrossProPOD;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		0EF47D7066FB2314633A8A56D8E9576B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0A819AE42153BC57FD6747E1749C8A /* Pods-ObjectiveCPOD.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ObjectiveCPOD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -825,150 +850,7 @@
 			};
 			name = Debug;
 		};
-		46095AA37750FF1EE12ADCD831AFE118 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E0A819AE42153BC57FD6747E1749C8A /* Pods-ObjectiveCPOD.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ObjectiveCPOD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ObjectiveCPOD/Pods-ObjectiveCPOD.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4AE2FE93E3AC525F869786780E2EF49F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 881A036421FA9229DB12216EF1C30359 /* TPMGCommon.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
-				PRODUCT_MODULE_NAME = TPMGCommon;
-				PRODUCT_NAME = TPMGCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5DA12E2BF5E36E63952EF0A2A6243D0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 881A036421FA9229DB12216EF1C30359 /* TPMGCommon.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
-				PRODUCT_MODULE_NAME = TPMGCommon;
-				PRODUCT_NAME = TPMGCommon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		71BD171851087C1CFA978127A7EC765B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7980753C41B3A16840A33134D4BDFFC /* TestCrossProPOD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestCrossProPOD/TestCrossProPOD-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/TestCrossProPOD/TestCrossProPOD.modulemap";
-				PRODUCT_MODULE_NAME = TestCrossProPOD;
-				PRODUCT_NAME = TestCrossProPOD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7C69435F1E0393090114AA2FDC10390E /* Release */ = {
+		47FF920CE0027E31C185EF1B08E73745 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B620311EF9502F3D6804DE929AEF3AAB /* Pods-ObjectiveCPOD.release.xcconfig */;
 			buildSettings = {
@@ -1007,9 +889,9 @@
 			};
 			name = Release;
 		};
-		89FB75F09EF2610D02C03F6B7D19595A /* Debug */ = {
+		55E41CBED0EDD7AED7DDE95005058FF4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25F12E5C11C18175BE574FDD11E78A4C /* JVFloatLabeledTextField.xcconfig */;
+			baseConfigurationReference = 09C58D1ABF6E6E5438549D15CF33329A /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1020,7 +902,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1029,47 +911,14 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
-				PRODUCT_MODULE_NAME = JVFloatLabeledTextField;
-				PRODUCT_NAME = JVFloatLabeledTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		97548BEC53255E8282D03ECA52D428B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7980753C41B3A16840A33134D4BDFFC /* TestCrossProPOD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TestCrossProPOD/TestCrossProPOD-prefix.pch";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/TestCrossProPOD/TestCrossProPOD.modulemap";
-				PRODUCT_MODULE_NAME = TestCrossProPOD;
-				PRODUCT_NAME = TestCrossProPOD;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1077,9 +926,9 @@
 			};
 			name = Release;
 		};
-		FD65E44302CF15F33B74EC7697B9EC33 /* Release */ = {
+		5CD831292EC047D3570F1D23861148A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25F12E5C11C18175BE574FDD11E78A4C /* JVFloatLabeledTextField.xcconfig */;
+			baseConfigurationReference = 49FEF08742B6D03EBA73810E49A83755 /* JVFloatLabeledTextField.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1105,6 +954,149 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82E8A455CC6372D464774A36B3FEC6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C58D1ABF6E6E5438549D15CF33329A /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BB3197B6E8C94DAA5B154344F24C6AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B549D2D9E5FE2CF2412C3C1CFD4076 /* TPMGCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
+				PRODUCT_MODULE_NAME = TPMGCommon;
+				PRODUCT_NAME = TPMGCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCF408B6B9FD44AB2EABBB92F1F3B674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FEF08742B6D03EBA73810E49A83755 /* JVFloatLabeledTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/JVFloatLabeledTextField/JVFloatLabeledTextField.modulemap";
+				PRODUCT_MODULE_NAME = JVFloatLabeledTextField;
+				PRODUCT_NAME = JVFloatLabeledTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E62621FD6B711D40C4CF375491390F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B549D2D9E5FE2CF2412C3C1CFD4076 /* TPMGCommon.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPMGCommon/TPMGCommon-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPMGCommon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPMGCommon/TPMGCommon.modulemap";
+				PRODUCT_MODULE_NAME = TPMGCommon;
+				PRODUCT_NAME = TPMGCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1173,6 +1165,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		20977235B8E76B44E5D77BE7170405EB /* Build configuration list for PBXNativeTarget "Pods-ObjectiveCPOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EF47D7066FB2314633A8A56D8E9576B /* Debug */,
+				47FF920CE0027E31C185EF1B08E73745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25734BDA7F5FE9967107AB7A4AC3624F /* Build configuration list for PBXNativeTarget "TPMGCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3197B6E8C94DAA5B154344F24C6AA /* Debug */,
+				E62621FD6B711D40C4CF375491390F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1182,11 +1192,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		616964967AA01F6DA0226A8BBD2C7A22 /* Build configuration list for PBXNativeTarget "Pods-ObjectiveCPOD" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46095AA37750FF1EE12ADCD831AFE118 /* Debug */,
-				7C69435F1E0393090114AA2FDC10390E /* Release */,
+				82E8A455CC6372D464774A36B3FEC6A0 /* Debug */,
+				55E41CBED0EDD7AED7DDE95005058FF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1194,26 +1204,8 @@
 		8C414E0068C63C34D8BEC8252D016A1D /* Build configuration list for PBXNativeTarget "JVFloatLabeledTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89FB75F09EF2610D02C03F6B7D19595A /* Debug */,
-				FD65E44302CF15F33B74EC7697B9EC33 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B970DEF45C608D19F32BC1D4BA2D9691 /* Build configuration list for PBXNativeTarget "TPMGCommon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AE2FE93E3AC525F869786780E2EF49F /* Debug */,
-				5DA12E2BF5E36E63952EF0A2A6243D0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D4C3FF4AC657188FFB1DA1E70B0EE5A3 /* Build configuration list for PBXNativeTarget "TestCrossProPOD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				71BD171851087C1CFA978127A7EC765B /* Debug */,
-				97548BEC53255E8282D03ECA52D428B8 /* Release */,
+				DCF408B6B9FD44AB2EABBB92F1F3B674 /* Debug */,
+				5CD831292EC047D3570F1D23861148A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

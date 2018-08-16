@@ -6,7 +6,7 @@ target 'ObjectiveCPOD' do
 use_frameworks!
 pod 'JVFloatLabeledTextField'
 pod 'TPMGCommon', :git => 'https://github.kp.org/TPMG/TPMGCommon.git'
-pod 'TestCrossProPOD', :git => 'https://github.com/kumarabnit/TestCrossProPOD.git'
+pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
 
   # Pods for ObjectiveCPOD
   dynamic_frameworks = ['TPMGCommon']
